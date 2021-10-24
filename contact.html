@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <title>NYLA SHOP</title>
+    <link rel="stylesheet" href="./css/contact.css">
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="nav_list">
+        <ul>
+          <li class="logo">
+            <a href="./index.html">
+              <img src="./images/logo_img.png" alt="圖片">
+            </a>
+          </li>
+          <li class="about_me">
+            <a class="about_me" href="./index.html">關於我</a>
+          </li>
+          <li class="contact">
+            <a class="contact" href="./contact.html">與我聯繫</a>
+          </li>
+          <li class="social">
+            <div class="social">
+              社群網站
+              <ul class="social_list">
+                <li class="social_fb" >
+                  <a href="https://www.facebook.com/">FB</a>
+                </li>
+                <li class="social_twitter">
+                  <a href="https://twitter.com/">Twitter</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+        <div class="store">
+          <img src="./images/store.svg" alt="商店">
+        </div>
+      </nav>
+    </header>
+
+    <div class="banner"></div>
+
+    <main>
+      <form action="index.html" method="post">
+        <h2>與我聯繫</h2>
+        <div class="text">
+          <div class="mail">
+            <label>Email：
+              <input type="text" name="mail" value="" class="mail"
+              placeholder="請輸入Email">
+            </label>
+          </div>
+          <div class="time">
+            <label>
+              希望回覆時間：<input type="radio" name="time" value="上午" checked>上午
+            </label>
+            <label>
+              <input type="radio" name="time" value="中午">中午
+            </label>
+            <label class="last">
+              <input type="radio" name="time" value="晚上">晚上
+            </label>
+          </div>
+          <div class="textarea">
+            <label class="textarea">事項：</label> <textarea name="事項"></textarea>
+          </div>
+          <br>
+          <br>
+          <div class="button">
+            <button type="submit" name="button">資料送出</button>
+          </div>
+          <br>
+        </div>
+      </form>
+    </main>
+    <footer class="footer">
+      © All Rights Reserved
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,86 @@
+/* @import "./common/header.css"; */
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+}
+
+main{
+  width: 768px;
+  height: 768px;
+  margin: 0 auto;
+  /* margin-top: 268px; */
+  border: 1px solid red;
+
+}
+a.contact{
+  color: black;
+  height: 100px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+main > form {
+  margin: 100px auto 0px auto;
+  text-align: center;
+  vertical-align: middle;
+}
+
+div.text{
+  width: 500px;
+  border: 1px solid purple;
+  margin: 0px auto;
+  position: relative;
+  display: inline-block;
+  text-align: right;
+}
+main > form > div.text > div.mail{
+  margin-bottom: 20px;
+  /* border: 1px solid black; */
+  display: inline-block;
+}
+main > form > div.text > div.mail > label > input{
+  width: 378px ;
+  border-radius: 5px;
+  border-width: 0.5px;
+  height: 30px;
+}
+main > form > div.text > div.time{
+  margin-bottom: 20px;
+  text-align: left;
+  display: block;
+  margin-left: 4px;;
+}
+main > form > div.text > div.textarea
+textarea{
+  /* resize: none; */
+  width: 378px ;
+  height: 200px ;
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 5px;
+  border-width: 0.5px;
+}
+/* label.last{
+  padding-right: 250px
+  display: inline-block;
+} */
+main > form > div.text > div.textarea {
+  display: inline-block;
+}
+button{
+  background-color: black;
+  color: white;
+  width: 110px ;
+  height: 35px ;
+  /* text-align: center; */
+  border-radius: 5px;
+  border-width: 0.5px;
+  font-size: 17px;
+  margin-right: 150px;
+}
+div.button{
+  text-align: center;
+}

@@ -1,0 +1,131 @@
+@import "./common/header.css";
+@import "./common/footer.css";
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+}
+
+a.new_items{
+  color: black;
+  font-weight: 900;
+  /* font-size: 18px; */
+  border-bottom: 2px solid #E3A063;
+}
+
+div.one1{
+  width: 1200px;
+  height: 1200px;
+  margin: 0 auto;
+  /* margin-top: 268px; */
+  border: 1px solid red;
+  font-size: 0 ;
+
+}
+
+div.nivo-controlNAV{
+  border: 1px solid red;
+  margin: 0 auto;
+}
+
+aside.aside{
+  border: 1px solid blue;
+  height: 400px;
+
+}
+
+/* a.about_me{
+  color: black;
+  height: 100px;
+  font-weight: bold;
+  font-size: 22px; */
+  /* text-decoration: none; */
+  /* background-color: gray; */
+  /* text-align: bottom; */
+}
+
+aside.photo{
+  border:1px solid pink;
+  /* overflow: hidden; */
+  height: 400px;
+  font-size: 16px;
+  vertical-align: top;
+}
+
+aside > img{
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  position: relative;
+  top:-75px;
+  border:1px solid black;
+}
+
+div.photo_name{
+  text-align: center;
+  position: relative;
+  top:-75px;
+}
+div.parent_container{
+  width: 768px;
+  /* height: 768px; */
+  margin: 0 auto;
+  /* margin-top: 268px; */
+  border: 1px solid red;
+  font-size: 0 ;
+
+}
+div.parent_container aside.photo, div.parent_container main.main{
+  display: inline-block;
+  vertical-align: top;
+  font-size: 1rem; /* 16px */
+}
+div.parent_container aside.photo{
+  border: 1px solid blue;
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+  text-align: center;
+  padding-top:92px;
+}
+
+div.parent_container main.main{
+  border: 1px solid green;
+  height: 500px;
+  font-size: 20px;
+  width: calc(100% - 200px - 20px);
+}
+div.h11{
+  /* border: 1px solid green; */
+  margin-top:20px;
+  margin-bottom:20px;
+}
+table{
+  /* border: 1px solid black; */
+  width: 100%;
+  height: 20px;
+  font-size: 16px;
+  border-collapse: collapse;
+  line-height: 1.2;
+  margin-bottom: 60px;
+}
+
+tr.test1{
+  /* border: 1px solid black; */
+  height: 10px;
+  border-collapse: collapse;
+}
+td.name1　{
+content: 200px
+  border-collapse: collapse;
+}
+table td, table th{
+  border: 1px solid black;
+  padding: 10px;
+}
+aside.photo{
+  padding-top: 0px !important;
+}

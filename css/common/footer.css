@@ -1,0 +1,129 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+}
+
+footer.footer{
+  flex-direction: row;
+  width:1200px;
+  align-items: flex-end;
+  position: relative;
+  margin: 0px auto;
+  border: 1px solid pink;
+  position: sticky;
+  top:0;
+  /* background-image: url("../../images/footer1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+  opacity: .3; */
+}
+footer.footer::before{
+  content: '';
+  position: absolute;
+  left: 0; right: 0; top: 0; bottom: 0;
+  background: url("../../images/footer1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  opacity: .2;
+}
+
+
+footer > div.footer_title{
+  border: 1px solid blue;
+  text-align: center;
+  padding: 50px auto 50px auto;
+  font-size: 24px;
+  margin-top: 50px;
+
+}
+
+footer > div.footer_menu > ul{
+  border: 1px solid black;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+footer > div.footer_menu > ul > li{
+  list-style: none;
+  padding: 10px 40px;
+  font-weight: 700;
+}
+
+footer > div.footer_end{
+  border: 1px solid black;
+  display: flex;
+  /* height: 200px; */
+  justify-content: center;
+}
+
+div.footer_service{
+  border: 1px solid blue;
+  display: flex;
+  flex-direction: row;
+}
+
+div.footer_social{
+  border: 1px solid black;
+  padding-top: 20px;
+  /* display: flex; */
+  /* flex-direction: row; */
+}
+
+footer > div.tibame{
+  border: 1px solid orange;
+  font-size: 10px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+div.footer_service1{
+  border: 1px solid red;
+  height: 100px;
+  width: 175px;
+  background-color: #E3A063;
+  border-radius: 20px;
+  font-size: 36px;
+  /* text-align: center; */
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+
+div.footer_service2{
+  border: 1px solid orange;
+  line-height: 30px;
+  height: 100px;
+  width: 265px;
+  display: flex;
+  align-items:center;
+  /* justify-content: center; */
+}
+
+div.footer_social_icon{
+  border: 1px solid green;
+  background-color: #E3A063;
+  border-radius: 20px;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  width: 235px;
+}
+div.footer_social_icon > a {
+  padding: 10px 10px 5px 10px;
+}
+
+div.footer_social1{
+  border: 1px solid red;
+  font-size: 10px;
+  text-align: center;
+}
+

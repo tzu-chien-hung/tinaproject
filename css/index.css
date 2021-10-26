@@ -11,7 +11,7 @@ body{
 
 
 div.banner{
-  background-image: url("../../images/banner.jpg");
+  background-image: url("../images/banner.jpg");
   background-repeat: no-repeat;
   min-width: 768px;
   height: 542px;

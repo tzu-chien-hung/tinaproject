@@ -1,0 +1,160 @@
+@import "./common/header.css";
+@import "./common/footer.css";
+
+main > div.process{
+width: 955px;
+height: 159px;
+border: 1px solid black;
+margin: 50px auto;
+display: flex;
+align-items: center;
+justify-content: space-around;
+border-radius: 20px;
+}
+main > div.process > div.circle{
+  width: 120px;
+  height: 120px;
+  border: 1px solid black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main > div.process > div.triangle{
+  border-style: solid;
+  border-width: 10px 20px;
+  border-color: transparent transparent transparent black;
+  height: 0; 
+  width: 0;
+  transform: translateX(50%);
+}
+main > div.process > div.circle > div.text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main > div.process > div.circle > div.text > span{
+  font-size: 10px;
+}
+main > div.process > div.circle > div.text > span.title{
+  font-size: 24px
+}
+main > div.process > div.step01{
+  background-color: #e3a063;
+}
+main > div.table{
+  width: 1200px;
+  margin: 0 auto;
+}
+table{
+  width:1200px;
+  padding: 0px;
+  border-spacing: 0px;
+}
+tr{
+  width: 100%;
+}
+th{
+  background-color: rgb(194, 193, 190);
+  padding: 0px;
+  height: 30px;
+}
+td{
+  background-color: rgb(241, 241, 241);
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+td.no1 > img{
+  width:100px;
+  height:100px;
+}
+tr > td{
+  text-align: center;
+}
+tr > td > input{
+  width: 50px;
+}
+main > div.table > div.checkout{
+  height: 200px;
+  background-color: rgb(241, 241, 241);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main > div.table > div.checkout > p{
+  text-align: center;
+}
+main > div.table > div.checkout > div.button{
+  display: flex;
+}
+main > div.table > div.checkout > div.button >a{
+  font-size: 18px;
+  background-color: rgba(227, 160, 99, 1);
+  font-weight: 600;
+  border: 1px solid black;
+  width: 150px;
+  border-radius: 100px; 
+  text-align: center;
+  display: inline-block;
+  margin: 20px;
+}
+main > div.table > div.checkout > div.button >a:hover{
+  color:white;
+}
+div.main5{
+  border: 3px solid #E3A063;
+  border-radius: 40px;
+}
+
+div.main5 > div.main5_title{
+  /* border: 1px solid black; */
+  margin-left: 40px;
+  margin-top: 60px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+div.main5 > div.bx{
+  /* border: 1px solid blueviolet; */
+  width: 1200px;
+  position: relative;
+
+}
+div.main5_contorl > a.main5_contorl1 {
+  /* border: 1px solid red; */
+  position: absolute;
+  top: 138.5px;
+  left: 25px;
+}
+
+div.main5_contorl > a.main5_contorl2 {
+  /* border: 1px solid red; */
+  position: absolute;
+  top:138.5px;
+  right: 25px;
+}
+div.main_viewport{
+  /* border: 1px solid blue; */
+  display: flex;
+
+}
+
+div.main_viewport > ul.viewport_list{
+  display: flex;
+  /* border: 1px solid red; */
+  margin: 30px auto;
+  padding: 0;
+}
+
+ul.viewport_list > li{
+  list-style: none;
+  /* border: 1px solid gold; */
+  margin: 20px 20px;
+}
+
+ul.viewport_list > li > a:hover{
+  opacity: 0.7;
+}

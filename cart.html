@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html lang="zh-Hant">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NYLA SHOP-登入/註冊</title>
-  <link rel="stylesheet" href="./css/login.css">
+  <title>Document</title>
+  <link rel="stylesheet" href="/css/cart.css">
 </head>
-
 <body>
   <header class="header">
     <div class="logo">
@@ -66,53 +64,89 @@
     </div>
   </header>
   <main>
-    <div class="banner">
-      <img src="./images/loginbanner.jpg" alt="">
-    </div>
-    <div class="total">
-      <div class="breadcrumbs">
-        <a href="./index.html">HOME</a>&gt; &nbsp; &nbsp;登入/註冊</div>
-      <div class="login_members">
-        <div class="login">
-          <div class="title">會員登入<br>Sign in</div>
-          <form action="">
-          <input type="text" placeholder="請輸入帳號">
-          <input type="password" placeholder="請輸入密碼">
-          <br>
-          <button>登入</button>
-          </form>
-          <div class="forgot_SMS">
-            <a href="#">忘記密碼</a>
-            <a href="#">使用SMS登入</a>
-          </div>
-          <div class="social_login">
-            <a href="#"><img src="./images/fbx.png" alt="fb"></a>
-            <a href="#"><img src="./images/googlex.png" alt="google"></a>
-            <a href="#"><img src="./images/applex.png" alt="APPLE"></a>
-          </div>
+    <div class="process">
+      <div class="circle step01">
+        <div class="text">
+          <span class="title">Step 01</span>
+          <span>確認購物車清單</span>
         </div>
-        <div class="members">
-          <div class="title">註冊會員<br>New Customer</div>
-          <form action="">
-          <input type="text" placeholder="請輸入手機號碼">
-          <input type="password" placeholder="請輸入密碼">
-          <br>
-          <button title="submit">註冊</button>
-          </form>
-          <div class="forgot_SMS">
-            <a href="#">會員條款</a>
-            <a href="#" class="SMS_p">隱私權政策</a>
-          </div>
-          <div class="social_login">
-            <a href="#"><img src="./images/fbx.png" alt="fb"></a>
-            <a href="#"><img src="./images/googlex.png" alt="google"></a>
-            <a href="#"><img src="./images/applex.png" alt="APPLE"></a>
-          </div>
+      </div>
+      <div class="triangle"></div>
+      <div class="circle">
+        <div class="text">
+          <span class="title">Step 02</span>
+          <span>選擇付款方式</span>
+        </div>
+      </div>
+      <div class="triangle"></div>
+      <div class="circle">
+        <div class="text">
+          <span class="title">Step 03</span>
+          <span>填寫運送資料</span>
+        </div>
+      </div>
+      <div class="triangle"></div>
+      <div class="circle">
+        <div class="text">
+          <span class="title">Step 04</span>
+          <span>完成訂單</span>
+        </div>
+      </div>
+    </div>
+    <div class="table">
+      <table>
+        <tr>
+          <th></th>
+          <th>商品編號</th>
+          <th>商品名稱</th>
+          <th>規格</th>
+          <th>數量</th>
+          <th>單價</th>
+          <th>小計</th>
+          
+        </tr>
+        <tr>
+          <td class="no1">
+            <img src="./images/1110121810-13.jpg" alt="商品圖片">
+          </td>
+          <td>123456</td>
+          <td>圈圈裙子</td>
+          <td>白/L</td>
+          <td><input type="number" value="1"></td>
+          <td>200</td>
+          <td>200</td>
+        </tr>
+      </table>
+      <div class="checkout">
+        <p>
+        小計金額(共一件)<br>
+        $200
+        </p>
+        <div class="button">
+          <a href="#" class="continue" >繼續購物</a>
+          <a href="#" class="next">下一步</a>
+        </div>
+      </div>
+    </div>
+    <div class="main5">
+      <div class= "main5_title">LOOK MORE...</div>
+      <div class= "bx">
+        <div class= "main_viewport">
+          <ul class= "viewport_list">
+            <li><a href="#"><img src="./images/min-11.png" alt="img" ></a></li>
+            <li><a href="#"><img src="./images/min-22.png" alt="img" ></a></li>
+            <li><a href="#"><img src="./images/min-33.png" alt="img" ></a></li>
+            <li><a href="#"><img src="./images/min-44.png" alt="img" ></a></li>
+            <li><a href="#"><img src="./images/min-55.png" alt="img" ></a></li>
+          </ul>
+        </div>
+        <div class="main5_contorl">
+          <a href="#" class="main5_contorl1"><img src="./images/contorl-1.png" alt="img" ></a>
+          <a href="#" class="main5_contorl2"><img src="./images/contorl-2.png" alt="img" ></a>
         </div>
       </div>
     </div>
   </main>
-
   <footer class="footer">
     <div class="footer_title">
       <span>Little Good Things Of Everyday Life.</span>
@@ -166,5 +200,4 @@
     </div>
   </footer>
 </body>
-
 </html>

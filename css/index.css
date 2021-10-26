@@ -9,123 +9,253 @@ body{
   margin: 0;
 }
 
-a.new_items{
-  color: black;
-  font-weight: 900;
-  /* font-size: 18px; */
-  border-bottom: 2px solid #E3A063;
+
+div.banner{
+  background-image: url("../../images/banner.jpg");
+  background-repeat: no-repeat;
+  min-width: 768px;
+  height: 542px;
+  background-size: cover;
+  /* border: 1px solid #E3A063; */
+  background-position: center center;
+  margin: 27px auto 0px auto;
+  position: relative;
 }
 
-div.one1{
-  width: 1200px;
-  height: 1200px;
-  margin: 0 auto;
-  /* margin-top: 268px; */
-  border: 1px solid red;
-  font-size: 0 ;
+div.banner > div.banner_contorl > a.banner_contorl1{
+  position: absolute;
+  top:253.5px;
+  left: 10px;
+
 
 }
+div.banner > div.banner_contorl > a.banner_contorl2{
+  position: absolute;
+  top:253.5px;
+  right: 10px;
+}
+
 
 div.nivo-controlNAV{
-  border: 1px solid red;
-  margin: 0 auto;
-}
-
-aside.aside{
-  border: 1px solid blue;
-  height: 400px;
-
-}
-
-/* a.about_me{
-  color: black;
-  height: 100px;
-  font-weight: bold;
-  font-size: 22px; */
-  /* text-decoration: none; */
-  /* background-color: gray; */
-  /* text-align: bottom; */
-}
-
-aside.photo{
-  border:1px solid pink;
-  /* overflow: hidden; */
-  height: 400px;
-  font-size: 16px;
-  vertical-align: top;
-}
-
-aside > img{
-  border-radius: 50%;
-  height: 150px;
-  width: 150px;
-  position: relative;
-  top:-75px;
-  border:1px solid black;
-}
-
-div.photo_name{
-  text-align: center;
-  position: relative;
-  top:-75px;
-}
-div.parent_container{
-  width: 768px;
-  /* height: 768px; */
-  margin: 0 auto;
-  /* margin-top: 268px; */
-  border: 1px solid red;
-  font-size: 0 ;
-
-}
-div.parent_container aside.photo, div.parent_container main.main{
-  display: inline-block;
-  vertical-align: top;
-  font-size: 1rem; /* 16px */
-}
-div.parent_container aside.photo{
-  border: 1px solid blue;
-  width: 200px;
-  height: 200px;
-  margin-right: 20px;
-  text-align: center;
-  padding-top:92px;
-}
-
-div.parent_container main.main{
-  border: 1px solid green;
-  height: 500px;
-  font-size: 20px;
-  width: calc(100% - 200px - 20px);
-}
-div.h11{
-  /* border: 1px solid green; */
-  margin-top:20px;
-  margin-bottom:20px;
-}
-table{
-  /* border: 1px solid black; */
-  width: 100%;
+  /* border: 1px solid red; */
+  /* margin: 0 auto; */
   height: 20px;
-  font-size: 16px;
-  border-collapse: collapse;
-  line-height: 1.2;
-  margin-bottom: 60px;
 }
 
-tr.test1{
+div.nivo-controlNAV > img{
+  margin: 0 auto;
+  padding-top: 3px;
+  padding-bottom: 2px;
+  display: flex;
+
+}
+
+main.main{
   /* border: 1px solid black; */
-  height: 10px;
-  border-collapse: collapse;
+  width: 1200px;
+  height: 3682px;
+  margin: 0 auto;
 }
-td.name1　{
-content: 200px
-  border-collapse: collapse;
+
+main > div.main1{
+  /* border: 1px solid blue; */
+  width: 1200px;
+  height: 625px;
+  position: relative;
+  background-color: #E3A063;
+  border-radius: 100px 100px 0px 0px ;
 }
-table td, table th{
-  border: 1px solid black;
-  padding: 10px;
+
+main > div.main1 > div.one1{
+  /* border: 1px solid red; */
+  width: 710px;
+  height: 100px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 30px;
+  font-size: 25px;
+  font-weight: bold;
+  
 }
-aside.photo{
-  padding-top: 0px !important;
+
+div.main1 > div.one1:hover{
+  color:white;
+  text-shadow: 2px 2px 5px black;
+
+}
+
+
+
+main > div.main1 > div.one2{
+  /* border: 1px solid green; */
+  width: 1090px;
+  height: 423px;
+  margin: 0 auto;
+  margin-top: 30px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+}
+
+main > div.main1 > div.one2 > a{
+  /* border: 1px solid red; */
+  width: 316px;
+  height: 425px;
+  overflow: hidden;
+  display: inline-flex;
+  /* position: absolute;
+  bottom: 0px; */
+  /* margin-top: 80px; */
+}
+a.main_img1 , a.main_img2{
+  margin-right: 20px;
+}
+
+a.main_img1:hover{
+  /* margin-top: 20px; */
+  transform: translateY(-5%);
+}
+
+a.main_img2:hover{
+  /* margin-top: 20px; */
+  transform: translateY(-5%);
+}
+
+a.main_img3:hover{
+  /* margin-top: 20px; */
+  transform: translateY(-5%);
+}
+div.banner2{
+  width: 100%;
+  height: 500px;
+  /* border: 1px solid red; */
+  background-image: url("../images/background-rock.jpg");
+  background-repeat: round;
+  background-attachment: fixed;
+  background-position: 0px 0px;
+  background-size: cover;
+  padding-left: 50px;
+  padding-top: 100px;
+  font-size: 48px;
+}
+
+div.main2{
+  /* border: 1px solid blue; */
+  display: flex;
+  margin-top: 50px;
+}
+
+div.main2 > div.two1{
+  /* border: 1px solid purple; */
+  display: flex;
+  margin-right: 15px;
+}
+
+div.main2 > div.two2{
+  /* border: 1px solid purple; */
+  margin-right: 15px;
+  width: 285px;
+}
+
+div.main2 > div.two3{
+  /* border: 1px solid purple; */
+  margin-right: 20px;
+  /* overflow: hidden; */
+  width: 592px;
+  /* margin-right: 0px; */
+}
+
+div.two3:hover{
+  /* margin-top: 20px; */
+  transform: translateY(-3%);
+}
+
+div.main3{
+  /* border: 1px solid green; */
+  display: flex;
+  margin-top: 50px;
+  width: 1200px;
+
+}
+
+div.main3 > a{
+  /* border: 1px solid red; */
+  height: 596px;
+  overflow: hidden;
+}
+
+div.main3 > a:hover{
+  opacity: 0.7; 
+  /* height: 596px; */
+}
+
+
+
+div.run{
+  height:40px;
+  width: 1200px;
+  /* border: 3px solid #E3A063; */
+  overflow: hidden;
+}
+
+div.main4{
+  width: 1200px;
+}
+
+div.main5{
+  border: 3px solid #E3A063;
+  border-radius: 40px;
+}
+
+div.main5 > div.main5_title{
+  /* border: 1px solid black; */
+  margin-left: 40px;
+  margin-top: 60px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+div.main5 > div.bx{
+  /* border: 1px solid blueviolet; */
+  width: 1200px;
+  position: relative;
+
+}
+
+div.main_viewport{
+  /* border: 1px solid blue; */
+  display: flex;
+
+}
+
+div.main_viewport > ul.viewport_list{
+  display: flex;
+  /* border: 1px solid red; */
+  margin: 30px auto;
+  padding: 0;
+}
+
+ul.viewport_list > li{
+  list-style: none;
+  /* border: 1px solid gold; */
+  margin: 20px 20px;
+}
+
+ul.viewport_list > li > a:hover{
+  opacity: 0.7;
+}
+
+div.main5_contorl > a.main5_contorl1 {
+  /* border: 1px solid red; */
+  position: absolute;
+  top: 138.5px;
+  left: 25px;
+}
+
+div.main5_contorl > a.main5_contorl2 {
+  /* border: 1px solid red; */
+  position: absolute;
+  top:138.5px;
+  right: 25px;
 }

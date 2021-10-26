@@ -4,6 +4,7 @@
 
 body{
   margin: 0;
+  min-width: 1200px;
 }
 
 body{
@@ -31,6 +32,7 @@ header.header{
   position: sticky;
   top:0;
   background-color: white;
+  z-index: 100;
 }
 
 
@@ -45,7 +47,7 @@ ul.item_list{
   width: 100%;
   display: none;
   position: absolute;
-  top:100%;
+  top: 100%;
 }
 
 ul.item_list > li{
@@ -58,22 +60,25 @@ ul.item_list > li{
 
 ul.item_list > li > a{
   color: gray;
-  display: inline-block;
-  width: 100%;
+  display: block;
+  /* width: 100%; */
   text-align: center;
-  padding: 5px 0;
+  /* padding: 5px 0; */
+  height: 30px;
+  line-height: 30px;
 } 
 
-ul.item_list > li.item_top:hover {
+ul.item_list > li.item_top > a:hover {
   background-color: #E3A063;
+  color: white ;
   width: 100%;
 }
 
-ul.item_list > li.item_bottom:hover {
+ul.item_list > li.item_bottom > a:hover {
   background-color: #E3A063;
+  color: white;
   width: 100%;
 }
-
 
 div.acc:hover ul.acc_list{
   display: block;
@@ -95,6 +100,7 @@ ul.acc_list > li{
   height: 30px;
   /* padding-top: 10px; */
   position:relative;
+
 }
 
 ul.acc_list > li > a{
@@ -102,17 +108,23 @@ ul.acc_list > li > a{
   display: inline-block;
   width: 100%;
   text-align: center;
-  padding: 5px 0;
+  /* padding: 5px 0; */
+  height: 30px;
+  line-height: 30px;
+  
 } 
 
-ul.acc_list > li.acc_bag:hover {
+ul.acc_list > li.acc_bag > a:hover {
   background-color: #E3A063;
   width: 100%;
+  color: white ;
+  /* text-shadow: 2px 2px 2px black; */
 }
 
-ul.acc_list > li.acc_ear:hover {
+ul.acc_list > li.acc_ear > a:hover {
   background-color: #E3A063;
   width: 100%;
+  color: white ;
 }
 
 header > nav > ul > li{
@@ -152,15 +164,16 @@ header > div.cart > a.heart{
 header > nav > ul > li > a{
   display: block;
   position: absolute;
-  bottom: 3px;
+  bottom: 0px;
   left: 50%;
   transform: translateX(-50%);
   width: 120px;
+
 }
 header > nav > ul > li > div{
   display: block;
   position: absolute;
-  bottom: 3px;
+  bottom: 0px;
   left: 50%;
   transform: translateX(-50%);
   width: 120px;
@@ -170,10 +183,10 @@ input.the_text{
   background-color: rgb(199, 199, 188);
   border: 1px solid grey;
   border-radius: 8px;
-  height: 30px;
+  height: 27px;
   position: absolute;
-  right: 155px;
-  bottom: 5px;
+  right: 165px;
+  bottom: 4px;
 }
 
 input.the_text:focus{
@@ -183,44 +196,33 @@ input.the_text:focus{
 
 div.search > img{
   position: absolute;
-  right: 158px;
+  right: 168px;
   bottom: 6px;
 }
 
 div.item:hover{
-  color:gray;
-  bottom: 5px;
-  font-size: 17px;
+  color:#E3A063;
+  font-size: 18px;
 }
+
 div.acc:hover{
-  color:gray;
-  bottom: 5px;
-  font-size: 17px;
+  color:#E3A063;
+  font-size: 18px;
 }
+
 a.news:hover{
-  color:gray;
-  bottom: 5px;
-  font-size: 17px;
+  color:#E3A063;
+  font-size: 18px;
 }
+
 a.new_items:hover{
-  color:gray;
-  bottom: 5px;
-  font-size: 17px;
+  color:#E3A063;
+  font-size: 18px;
 }
+
 a.hot:hover{
-  color:gray;
-  bottom: 5px;
-  font-size: 17px;
+  color:#E3A063;
+  font-size: 18px;
 }
 
 
-div.banner{
-  background-image: url("../../images/banner.jpg");
-  background-repeat: no-repeat;
-  min-width: 768px;
-  height: 542px;
-  background-size: cover;
-  border: 1px solid #E3A063;
-  background-position: center center;
-  margin: 0 auto;
-}

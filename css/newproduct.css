@@ -114,6 +114,9 @@ div.main_newproduct_hum > a {
   padding-right: 10px;
 }
 
+div.main_newproduct_hum > span {
+  padding-left: 10px;
+}
 div.main_newproduct_hum a.main_newproduct_hum_newproduct_hum , div.main_newproduct_hum a.main_newproduct_hum_newproduct_hum_1020newproduct {
   padding-left: 10px;
 }
@@ -411,19 +414,35 @@ div > main > div.main_newproduct_hum > a:hover{
   opacity: 0.7;
 }
 
-div.main_newproduct2 > div > a:hover{
+div.main_newproduct2 > div > a > img:hover{
   opacity: 0.7;
 }
 
-div.main_newproduct3 > div > a:hover{
+div.main_newproduct2 > div > a > span:hover{
   opacity: 0.7;
 }
 
-div.main_newproduct4 > div > a:hover{
+div.main_newproduct3 > div > a > img:hover{
   opacity: 0.7;
 }
 
-div.main_newproduct5 > div > a:hover{
+div.main_newproduct3 > div > a > span:hover{
+  opacity: 0.7;
+}
+
+div.main_newproduct4 > div > a > img:hover{
+  opacity: 0.7;
+}
+
+div.main_newproduct4 > div > a > span:hover{
+  opacity: 0.7;
+}
+
+div.main_newproduct5 > div > a > img:hover{
+  opacity: 0.7;
+}
+
+div.main_newproduct5 > div > a > span:hover{
   opacity: 0.7;
 }
 

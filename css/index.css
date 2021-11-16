@@ -1,288 +1,1144 @@
 @import "./common/header.css";
 @import "./common/footer.css";
 
-*{
-  box-sizing: border-box;
+div.container{
+  width: 100%;
+  padding: 0px;
 }
-
-body{
-  margin: 0;
-}
-
-
-div.banner{
-  background-image: url("../images/banner.jpg");
-  background-repeat: no-repeat;
-  min-width: 768px;
-  height: 542px;
-  background-size: cover;
-  /* border: 1px solid #E3A063; */
-  background-position: center center;
-  margin: 0px auto 10px auto;
-  position: relative;
-}
-
-div.banner > div.banner_contorl > a.banner_contorl1{
-  position: absolute;
-  top:253.5px;
-  left: 10px;
-
-
-}
-div.banner > div.banner_contorl > a.banner_contorl2{
-  position: absolute;
-  top:253.5px;
-  right: 10px;
-}
-
-
-div.nivo-controlNAV{
-  /* border: 1px solid red; */
-  /* margin: 0 auto; */
-  height: 20px;
-}
-
-div.nivo-controlNAV > img{
-  margin: 0 auto;
-  padding-top: 3px;
-  padding-bottom: 2px;
-  display: flex;
-
-}
-
 main.main{
   /* border: 1px solid black; */
   width: 1200px;
-  height: 3800px;
   margin: 0 auto;
 }
 
-main > div.main1{
-  /* border: 1px solid blue; */
-  width: 1200px;
-  height: 625px;
-  margin-top: 10px;
-  position: relative;
-  background-color: #E3A063;
-  border-radius: 100px 100px 0px 0px ;
+div.main2 > div.main2_two_img > div > a {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
 }
 
-main > div.main1 > div.one1{
-  /* border: 1px solid red; */
-  width: 710px;
-  height: 100px;
-  text-align: center;
-  margin: 0 auto;
-  padding-top: 30px;
-  font-size: 25px;
+/*  ========  原先的carousel.css 裡面的 =========*/
+header.header{
+  font-size: 16px;
+  text-decoration:none;
+}
+
+div.logo > a > img{
+  margin-bottom: 3.5px;
+}
+div.item{
+  color: black;
+}
+
+header > nav > ul > li > a:hover{
+  color:#E3A063;
+  text-decoration:none;
   font-weight: bold;
-  
 }
 
-div.main1 > div.one1:hover{
-  color:white;
-  text-shadow: 2px 2px 5px black;
-
+ul.acc_list > li.acc_bag > a:hover {
+  background-color: #E3A063;
+  width: 100%;
+  color: white ;
+  text-decoration: none;
 }
 
-
-
-main > div.main1 > div.one2{
-  /* border: 1px solid green; */
-  width: 1090px;
-  height: 423px;
-  margin: 0 auto;
-  margin-top: 30px;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-
+ul.acc_list > li.acc_ear > a:hover {
+  background-color: #E3A063;
+  width: 100%;
+  color: white ;
+  text-decoration: none;
 }
 
-main > div.main1 > div.one2 > a{
-  /* border: 1px solid red; */
-  width: 316px;
-  height: 425px;
-  overflow: hidden;
-  display: inline-flex;
-  /* position: absolute;
-  bottom: 0px; */
-  /* margin-top: 80px; */
-}
-a.main_img1 , a.main_img2{
-  margin-right: 20px;
+ul.item_list > li.item_top > a:hover {
+  background-color: #E3A063;
+  color: white ;
+  width: 100%;
+  /* height: 30px; */
+  text-decoration: none;
 }
 
-a.main_img1:hover{
-  /* margin-top: 20px; */
-  transform: translateY(-5%);
+ul.item_list > li.item_bottom > a:hover {
+  background-color: #E3A063;
+  color: white;
+  width: 100%;
+  /* height: 30px; */
+  text-decoration: none;
 }
-
-a.main_img2:hover{
-  /* margin-top: 20px; */
-  transform: translateY(-5%);
+div.cart > a{
+  height: 33.33px;
 }
-
-a.main_img3:hover{
-  /* margin-top: 20px; */
-  transform: translateY(-5%);
-}
-div.banner2{
-  /* width: 100%; */
-  min-width: 1200px;
-  height: 600px;
-  /* border: 1px solid red; */
-  background-image: url("../images/background-rock.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: 50% 0px;
-  background-size: 1200px 500px;
-  padding-left: 50px;
-  padding-top: 100px;
-  font-size: 48px;
-}
-
-div.main2{
-  /* border: 1px solid blue; */
-  display: flex;
-  margin-top: 50px;
-}
-
-div.main2 > div.two1{
-  /* border: 1px solid purple; */
-  display: flex;
-  margin-right: 15px;
-}
-
-div.main2 > div.two1 > a > span{
-  /* border: 1px solid purple; */
-  display: flex;
-  padding-left: 225px;
-}
-
-div.main2 > div.two2{
-  /* border: 1px solid purple; */
-  margin-right: 15px;
-  width: 285px;
-}
-
-div.main2 > div.two2 > a.coat6 > span{
-  /* border: 1px solid purple; */
-  display: flex;
-  padding-left: 225px;
-  margin-bottom: 14px;
-}
-
-div.main2 > div.two2 > a.bottom7 > span{
-  /* border: 1px solid purple; */
-  display: flex;
-  padding-left: 200px;
-  /* margin-bottom: 10px; */
-}
-
-div.main2 > div.two3{
-  /* border: 1px solid purple; */
-  margin-right: 20px;
-  /* overflow: hidden; */
-  width: 592px;
-  /* margin-right: 0px; */
-}
-
-div.two3:hover{
-  /* margin-top: 20px; */
-  transform: translateY(-3%);
+div.search{
+  height: 33.33px;
 }
 
 div.main3{
-  /* border: 1px solid green; */
-  display: flex;
-  margin-top: 50px;
-  width: 1200px;
-
-}
-
-div.main3 > a{
-  /* border: 1px solid red; */
-  height: 596px;
-  overflow: hidden;
-}
-
-div.main3 > a.three_img1{
-margin-right: 8px;
-}
-
-div.main3 > a:hover{
-  opacity: 0.7; 
-  /* height: 596px; */
-}
-
-
-
-div.run{
-  height:42px;
-  width: 1200px;
-  border: 2px solid #E3A063;
-  overflow: hidden;
+  border-top: 1px solid rgb(200, 200, 200);
 }
 
 div.main4{
-  width: 1200px;
+  border-top: 1px solid rgb(200, 200, 200);
 }
 
-div.main5{
-  border: 3px solid #E3A063;
-  border-radius: 40px;
-  margin-top: 30px;
+/*  ========  原先的carousel.css 裡面的  結束===========*/
+
+
+/*  ================================ 框線們  =============================================*/
+/* @media screen and (min-width: 320px) and (max-width: 1600px){
+  main > div.main1{
+    border: 1px solid orange;
+  }
+
+  main > div.main1 > div.one1{
+    border: 1px solid red;
+  }
+
+  main > div.main1 > div.one2{
+    border: 1px solid green;
+  }
+
+  main > div.main1 > div.one2 > a{
+    border: 1px solid red;
+  }
+
+  main > div.main1 > div.one2 > a > img{  
+    border: 1px solid blue;
+  }
+
+  div.banner2{
+    border: 1px solid red;
+  }
+
+  div.banner2 > span.pazzo{
+    border: 1px solid yellow;
+  }
+
+  div.main2 > div > a > span{
+    border: 1px solid black;
+  }
+
+  div.main2{
+    border: 1px solid blue;
+  }
+
+  main > div.main2 > div.main2_name{
+    border: 1px solid red;
+  }
+
+
+  div.main2 > div.main2_two_img{
+    border: 1px solid blue;
+  }
+
+  div.main2 > div.main2_two_img > div.two1{
+    border: 1px solid purple;
+  }
+
+  div.main2 > div.main2_two_img > div.two1 > a > span{
+    border: 1px solid purple;
+  }
+
+  div.main2 > div.main2_two_img > div.two2{
+    border: 1px solid purple;
+  }
+
+  div.main2 > div.main2_two_img > div.two2 > a.coat6 > span{
+    border: 1px solid purple;
+  }
+
+  div.main2 > div.main2_two_img > div.two2 > a.bottom7 > span{
+    border: 1px solid purple;
+  }
+
+  div.main2 > div.main2_two_img > div.two3{
+    border: 1px solid purple;
+  }
+
+  div.main3{
+    border: 1px solid green;
+  }
+
+  div.main3 > div.main3_name{
+    border: 1px solid red;
+  }
+
+  div.main3_photo{
+    border: 1px solid purple;
+  }
+
+  div.main3_photo > div > a > div.three_img_text{
+    border: 1px solid black;
+  }
+
+  div.main4{
+    border: 1px solid black;
+  }
+
+  div.main4 > div.main4_name{
+    border: 1px solid red;
+  }
+
+  div.main5{
+    border: 3px solid #E3A063;
+  }
+
+  div.main5 > div.main5_title{
+    border: 1px solid black;
+  }
+
+  div.main5 > div.bx{
+    border: 1px solid blueviolet;
+  }
+
+  div.bx > ul.viewport_list{
+    border: 1px solid red;
+  }
+
+  ul.viewport_list > li{
+    border: 1px solid gold;
+  }
+} */
+/*  ================================ 框線們結束  =============================================*/
+
+
+@media screen and (max-width: 575.98px){
+  main > div.main1{
+    border: 3px solid  #E3A063;
+    border-radius: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+  }
+
+  main > div.main1 > div.one1{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: bold;  
+  }
+
+
+  main > div.main1 > div.one2{
+    text-align: center;
+    justify-content: space-around;
+  }
+
+  main > div.main1 > div.one2 > a{
+    margin: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    display: inline-flex;
+
+  }
+
+  main > div.main1 > div.one2 > a > img{  
+    width: 100%;
+  }
+
+  div.banner2{
+    width: 100%;
+    /* min-width: 1200px; */
+    height: 500px;
+    background-image: url("../images/mag_model.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 0px;
+    background-size: 1200px 600px;
+    position: relative;
+  }
+
+  div.banner2 > span.pazzo{
+    /* margin: 0 auto; */
+    width: 100%;
+    font-size: 28px;
+    color:antiquewhite;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 40%;
+  }
+
+  /*==========  main2  ============*/
+
+  div.main2 > div > a{
+    color: black;
+    text-decoration:none;
+    font-size: 16px;
+  }
+
+  main > div.main2 > div.main2_name{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  div.main2 > div.main2_two_img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  div.main2 > div.main2_two_img > div.two1{
+    display: flex;
+    justify-content: center;
+    width: 49%;
+  }
+
+  div.main2 > div.main2_two_img > div > a > span{
+    display: flex;
+  }
+
+  div.main2 > div.main2_two_img > div.two2{
+    flex-wrap: wrap-reverse;
+    display: flex;
+    justify-content: center;
+    width: 49%;
+  }  
+
+  div.main2 > div.main2_two_img > div.two3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+    /*===========================================  main3  =================================*/
+
+  div.main3{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 1200px;
+  }
+
+  div.main3 > div.main3_name{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  div.main3_photo{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  div.main3_photo > div{
+    width: 49%;
+  }
+
+  div.main3_photo > div.main3_three_img1 > a.three_img{
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 20px;
+    color: black;
+  }
+  
+  div.main3_photo > div.main3_three_img2 > a.three_img{
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 20px;
+    color: black;
+  }
+
+  div.main3_photo > div > a.three_img > img{
+    width:100%;
+  }
+
+  div.main3_photo > div > a > div.three_img_text{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 10px;
+    text-align: center;
+    display: inline-block;
+  }
+
+    /*==========  main4  ============*/
+
+  div.main4{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  div.main4 > div.main4_name{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+   /*============================================  main5  =============================*/
+
+  div.main5{
+    border: 3px solid #E3A063;
+    border-radius: 40px;
+    /* margin-top: 50px; */
+  }
+
+  div.main5 > div.main5_title{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  div.main5 > div.bx{
+    width: 1200px;
+    position: relative;
+    
+  }
+
+  div.bx > ul.viewport_list{
+    display: flex;
+    margin: 0px auto 20px auto;
+    justify-content: space-around;
+  }
+
+  ul.viewport_list > li{
+    list-style: none;
+    margin: 8px 8px;
+  }
+
+  ul.viewport_list > li > a > img{
+    border-radius: 10px;
+  }
+}  
+
+
+@media screen and (min-width: 576px) and (max-width: 767.98px){
+
+  main > div.main1{
+    border: 3px solid  #E3A063;
+    border-radius: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+  }
+
+  main > div.main1 > div.one1{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 20px;
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  div.main1 > div.one1:hover{
+    color:white;
+    text-shadow: 2px 2px 5px black;
+  }
+
+  main > div.main1 > div.one2{
+    text-align: center;
+    justify-content: space-around;
+  }
+
+  main > div.main1 > div.one2 > a{
+    margin: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    display: inline-flex;
+  }
+
+  main > div.main1 > div.one2 > a > img{  
+    width: 100%;
+  }
+
+  div.banner2{
+    width: 100%;
+    /* min-width: 1200px; */
+    height: 500px;
+    background-image: url("../images/mag_model.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 0px;
+    background-size: 1200px 600px;
+    position: relative;
+  }
+
+  div.banner2 > span.pazzo{
+    width: 100%;
+    font-size: 28px;
+    color:antiquewhite;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 40%;
+  }
+
+  /*=========================================  main2  ===================================*/
+
+  div.main2 > div > a{
+    color: black;
+    text-decoration:none;
+    font-size: 16px;
+  }
+
+  main > div.main2 > div.main2_name{
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  main > div.main2 > div.main2_name:hover{
+    color:white;
+    text-shadow: 2px 2px 5px black;
+  }
+
+  div.main2 > div.main2_two_img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  div.main2 > div.main2_two_img > div.two1{
+    display: flex;
+    justify-content: center;
+    width: 49%;
+  }
+
+  div.main2 > div.main2_two_img > div > a > span{
+    display: flex;
+  }
+
+  div.main2 > div.main2_two_img > div.two2{
+    flex-wrap: wrap-reverse;
+    display: flex;
+    justify-content: center;
+    width: 49%;
+  }  
+
+  div.main2 > div.main2_two_img > div.two3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+    /*==========================================  main3  ===================================*/
+
+  div.main3{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 1200px;
+  }
+
+  div.main3 > div.main3_name{
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  div.main3_photo{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  div.main3_photo > div{
+    width: 49%;
+  }
+
+  div.main3_photo > div.main3_three_img1 > a.three_img{
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 20px;
+    color: black;
+  }
+  
+  div.main3_photo > div.main3_three_img2 > a.three_img{
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 20px;
+    color: black;
+  }
+
+  div.main3_photo > div > a.three_img > img{
+    width:100%;
+  }
+
+  div.main3_photo > div > a > div.three_img_text{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+  }
+
+    /*========================================  main4  =====================================*/
+
+  div.main4{
+    width: 100%;
+  }
+
+  div.main4 > div.main4_name{
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  main > div.main4 > div.main4_name:hover{
+    color:white;
+    text-shadow: 2px 2px 5px black;
+  }
+
+
+   /*===============================================  main5  ==================================*/
+
+  div.main5{
+    border: 3px solid #E3A063;
+    border-radius: 40px;
+    margin-top: 50px;
+  }
+
+  div.main5 > div.main5_title{
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  div.main5 > div.bx{
+    width: 1200px;
+    position: relative;
+  }
+
+  div.bx > ul.viewport_list{
+    display: flex;
+    margin: 0px auto 20px auto;
+    justify-content: space-around;
+
+  }
+
+  ul.viewport_list > li{
+    list-style: none;
+    margin: 20px 20px;
+  }
+
+  ul.viewport_list > li > a:hover{
+    opacity: 0.7;
+  }
 }
 
-div.main5 > div.main5_title{
-  /* border: 1px solid black; */
-  margin-left: 40px;
-  margin-top: 20px;
-  font-size: 24px;
-  font-weight: bold;
+
+@media screen and (min-width: 768px) and (max-width: 991.98px){
+
+  main > div.main1{
+    margin-top: 10px;
+    position: relative;
+    background-color: #E3A063;
+    border-radius: 100px 100px 0px 0px ;
+  }
+  main > div.main1{
+    height: 500px;
+    margin-top: 10px;
+    position: relative;
+    border: 5px solid orange;
+    background-color: #E3A063;
+    border-radius: 100px 100px 0px 0px ;
+  }
+
+  main > div.main1 > div.one1{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 30px;
+    font-size: 22px;
+    font-weight: bold; 
+  }
+
+  div.main1 > div.one1:hover{
+    color:white;
+    text-shadow: 2px 2px 5px black;
+  }
+
+  main > div.main1 > div.one2{
+    margin: 30px 10px 0px 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  main > div.main1 > div.one2 > a{
+    height: 310px;
+    overflow: hidden;
+    display: inline-flex;
+    justify-content: space-around;
+    /* flex-shrink：0; */
+  }
+
+  main > div.main1 > div.one2 > a > img{  
+    width: 100%;
+  }
+
+  div.banner2{
+    width: 100%;
+    /* min-width: 1200px; */
+    height: 500px;
+    background-image: url("../images/mag_model.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 0px;
+    background-size: 1200px 600px;
+    position: relative;
+  }
+
+  div.banner2 > span.pazzo{
+    font-size: 30px;
+    color:antiquewhite;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 40%;
+  }
+
+  /*=======================================  main2  ====================================*/
+
+  div.main2 > div > a{
+    color: black;
+    text-decoration:none;
+    font-size: 16px;
+  }
+
+  main > div.main2 > div.main2_name{
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  main > div.main2 > div.main2_name:hover{
+    color:white;
+    text-shadow: 2px 2px 5px black;
+  }
+
+  div.main2 > div.main2_two_img{
+    display: flex;
+  }
+
+  div.main2 > div.main2_two_img > div.two1{
+    margin-right: 25px;
+    width: 288px;
+  }
+
+  div.main2 > div.main2_two_img > div.two2{
+    margin-right: 25px;
+    width: 285px;
+  }
+
+  div.main2 > div.main2_two_img > div.two3{
+    width: 592px;
+    
+  }
+
+  div.two3:hover{
+    transform: translateY(-3%);
+  }
+
+    /*=====================================  main3  =====================================*/
+
+  div.main3{
+    margin-top: 100px;
+    margin-bottom: 170px;
+    width: 1200px;
+  }
+
+  div.main3 > div.main3_name{
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  main > div.main3 > div.main3_name:hover{
+    color:white;
+    text-shadow: 2px 2px 5px black;
+  }
+
+  /* ===============================  main3 兩張照片  ============================ */
+  div.main3_photo{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  div.main3_photo > div.main3_three_img1 > a.three_img{
+    display: inline-block;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    color: black;
+  }
+  div.main3_photo > div > a.three_img > img{
+    width:100%;
+  }
+
+  div.main3_photo > div > a > div.three_img_text{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.404);
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 24px;
+    bottom :0px;
+    text-align: center;
+    display: inline-block;
+    transform: translateY(100%);
+    left:0px;
+    transition:500ms ;
+  }
+
+  div.main3_photo > div > a:hover > div.three_img_text{
+    transform: translateY(0%);
+  }
+  div.main3_photo > div.main3_three_img2 > a.three_img{
+    display: inline-block;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    color: black;
+  }
+
+    /*==========================================  main4  =================================*/
+
+  div.main4{
+    width: 100%;
+  }
+
+  div.main4 > div.main4_name{
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  main > div.main4 > div.main4_name:hover{
+    color:white;
+    text-shadow: 2px 2px 5px black;
+  }
+
+
+   /*==============================================  main5  ======================================*/
+
+  div.main5{
+    border: 3px solid #E3A063;
+    border-radius: 40px;
+    margin-top: 50px;
+  }
+
+  div.main5 > div.main5_title{
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  div.main5 > div.bx{
+    width: 1200px;
+    position: relative;
+
+  }
+
+  div.bx > ul.viewport_list{
+    display: flex;
+    margin: 0px auto 20px auto;
+    justify-content: space-around;
+
+  }
+
+  ul.viewport_list > li{
+    list-style: none;
+    margin: 20px 20px;
+  }
+
+  ul.viewport_list > li > a:hover{
+    opacity: 0.7;
+  }
 }
 
-div.main5 > div.bx{
-  /* border: 1px solid blueviolet; */
-  width: 1200px;
-  position: relative;
 
-}
+@media screen and (min-width: 992px){
+  /*=====================================  main1  ========================================*/
+  main > div.main1{
+    height: 625px;
+    margin-top: 10px;
+    position: relative;
+    border: 5px solid orange;
+    background-color: #E3A063;
+    border-radius: 100px 100px 0px 0px ;
+  }
 
-div.main_viewport{
-  /* border: 1px solid blue; */
-  display: flex;
+  main > div.main1 > div.one1{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 30px;
+    font-size: 25px;
+    font-weight: bold;
+  }
 
-}
+  div.main1 > div.one1:hover{
+    color:white;
+    text-shadow: 2px 2px 5px black;
+  }
 
-div.main_viewport > ul.viewport_list{
-  display: flex;
-  /* border: 1px solid red; */
-  margin: 0px auto 20px auto;
-  padding: 0;
-}
+  main > div.main1 > div.one2{
+    height: 423px;
+    margin: 30px 10px 0px 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
 
-ul.viewport_list > li{
-  list-style: none;
-  /* border: 1px solid gold; */
-  margin: 20px 20px;
-}
+  main > div.main1 > div.one2 > a{
+    height: 400px;
+    overflow: hidden;
+    display: inline-flex;
+    justify-content: space-around;
+    /* flex-shrink：0; */
+  }
 
-ul.viewport_list > li > a:hover{
-  opacity: 0.7;
-}
+  main > div.main1 > div.one2 > a.main_img1 , a.main_img2{  
+    margin-right: 5px;
+  }
+  main > div.main1 > div.one2 > a > img{  
+    width: 100%;
+  }
 
-div.main5_contorl > a.main5_contorl1 {
-  /* border: 1px solid red; */
-  position: absolute;
-  top: 138.5px;
-  left: 25px;
-}
+  div.one2 > a:hover{
+    transform: translateY(-5%);
+    transition: 300ms;
+  }
 
-div.main5_contorl > a.main5_contorl2 {
-  /* border: 1px solid red; */
-  position: absolute;
-  top:138.5px;
-  right: 25px;
+  div.banner2{
+    width: 100%;
+    /* min-width: 1200px; */
+    height: 500px;
+    background-image: url("../images/mag_model.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 0px;
+    background-size: 1200px 600px;
+    position: relative;
+  }
+
+  div.banner2 > span.pazzo{
+    font-size: 30px;
+    color:antiquewhite;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 40%;
+  }
+
+
+  /*=========================================  main2  ========================================*/
+
+  div.main2 > div > a > span{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  main > div.main2 > div.main2_name{
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  main > div.main2 > div.main2_name:hover{
+    color:white;
+    text-shadow: 2px 2px 5px black;
+  }
+
+  div.main2 > div.main2_two_img{
+    display: flex;
+  }
+
+  div.main2 > div.main2_two_img > div.two1{
+    margin-right: 25px;
+    width: 288px;
+  }
+
+  div.main2 > div.main2_two_img > div.two2{
+    margin-right: 25px;
+    width: 285px;
+  }
+
+  div.main2 > div.main2_two_img > div.two3{
+    width: 592px;
+  }
+
+  div.two3:hover{
+    transform: translateY(-3%);
+  }
+
+  /*=====================================  main3  ========================================*/
+  div.main3{
+    margin-top: 100px;
+    margin-bottom: 120px;;
+  }
+
+  div.main3 > div.main3_name{
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  main > div.main3 > div.main3_name:hover{
+    color:white;
+    text-shadow: 2px 2px 5px black;
+  }
+
+  /* ==========  main3 兩張照片  =========== */
+
+  div.main3_photo{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  div.main3_photo > div.main3_three_img1 > a.three_img{
+    display: inline-block;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    color: black;
+  }
+  div.main3_photo > div > a.three_img > img{
+    width:100%;
+  }
+  div.main3_photo > div > a > div.three_img_text{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.404);
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 24px;
+    bottom :0px;
+    text-align: center;
+    display: inline-block;
+    transform: translateY(100%);
+    left:0px;
+    transition:500ms ;
+  }
+
+  div.main3_photo > div > a:hover > div.three_img_text{
+    transform: translateY(0%);
+  }
+  div.main3_photo > div.main3_three_img2 > a.three_img{
+    display: inline-block;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    color: black;
+  }
+
+
+  /*=====================================  main4  ========================================*/
+
+  div.main4{
+    width: 100%;
+  }
+
+  div.main4 > div.main4_name{
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  main > div.main4 > div.main4_name:hover{
+    color:white;
+    text-shadow: 2px 2px 5px black;
+  }
+
+
+ /*=====================================  main5  ========================================*/
+
+  div.main5{
+    border: 3px solid #E3A063;
+    border-radius: 40px;
+    margin-top: 50px;
+  }
+
+  div.main5 > div.main5_title{
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  div.main5 > div.bx{
+    width: 1200px;
+    position: relative;
+
+  }
+
+  div.bx > ul.viewport_list{
+    display: flex;
+    margin: 0px auto 20px auto;
+    justify-content: space-around;
+
+  }
+
+  ul.viewport_list > li{
+    list-style: none;
+    margin: 20px 20px;
+  }
+
+  ul.viewport_list > li > a:hover{
+    opacity: 0.7;
+  }
 }

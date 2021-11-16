@@ -1,13 +1,6 @@
 @import "./common/header.css";
 @import "./common/footer.css";
 
-*{
-  box-sizing: border-box;
-}
-
-body{
-  margin: 0;
-}
 
 a.new_items{
   color: black;
@@ -31,7 +24,7 @@ div.newproduct_all aside.aside,div.newproduct_all main.main_newproduct{
 }
 
 aside.aside{
-  /* border: 1px solid red; */
+  border: 1px solid red;
   width: 120px;
   margin-right: 50px;
   display: inline-block;

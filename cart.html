@@ -3,28 +3,34 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
   <title>Document</title>
   <link rel="stylesheet" href="./css/cart.css">
 </head>
 <body>
   <header class="header">
+
     <div class="logo">
       <a href="./index.html">
         <img src="./images/logo1.jpg" alt="圖片">
       </a>
     </div>
+    <button type="button" class="hamburger hamburger--spin btn_switch" id="hamham">
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
+    </button>
     <nav class="nav_list">
-      <ul>
+      <ul class="nav_list_ul">
         <li class="new_items nav_list">
-          <a class="new_items" href="./newproduct.html">週週新品</a>
+          <a class="new_items list" href="./newproduct.html">週週新品</a>
         </li>
         <li class="hot nav_list">
-          <a class="hot" href="#">人氣商品</a>
+          <a class="hot list" href="./topitem.html">人氣商品</a>
         </li>
         <li class="item nav_list">
           <div class="item">
-            衣著
+            <span class="item_clothing">NYLA衣著</span>
             <ul class="item_list">
               <li class="item_top">
                 <a href="#">上身</a>
@@ -37,7 +43,7 @@
         </li>
         <li class="acc nav_list">
           <div class="acc">
-            配件
+            <span class="item_clothing_1">NYLA配件</span>
             <ul class="acc_list">
               <li class="acc_bag">
                 <a href="#">包包</a>
@@ -49,19 +55,22 @@
           </div>
         </li>
         <li class="news nav_list">
-          <a class="news" href="#">最新活動</a>
+          <a class="news list" href="./news.html">最新活動</a>
         </li>
       </ul>
+
+      <div class="cart">
+        <a href="./login.html"><img src="./images/user.svg" alt="顧客" ></a>
+        <a href="./cart.html"><img src="./images/cart.svg" alt="購物車" ></a>
+        <a href="#" class="heart"><img src="./images/heart.svg" alt="愛心" /></a>
+        <div class="search">
+          <label for="search_name" class="search_check">
+             <img src="./images/search.svg" alt="搜尋">
+          </label>
+          <input type="text" class="search_bar" placeholder="search">          
+        </div>
+      </div>
     </nav>
-    <div class="search">
-      <input type="text" class="the_text" placeholder="search">
-      <img src="./images/search1.png" alt="搜尋">
-    </div>
-    <div class="cart">
-      <a href="./login.html"><img src="./images/user.png" alt="顧客" ></a>
-      <a href="./cart.html"><img src="./images/cart.png" alt="購物車" ></a>
-      <a href="#" class="heart"><img src="./images/love1.png" alt="愛心" /></a>
-    </div>
   </header>
   <main>
     <div class="process">

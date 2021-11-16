@@ -3,28 +3,39 @@
 
   <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
     <title>NYLA SHOP</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="./css/index.css">
   </head>
 
   <body>
     <header class="header">
+
       <div class="logo">
         <a href="./index.html">
           <img src="./images/logo1.jpg" alt="圖片">
         </a>
       </div>
+      <button type="button" class="hamburger hamburger--spin btn_switch" id="hamham">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
       <nav class="nav_list">
-        <ul>
+        <ul class="nav_list_ul">
           <li class="new_items nav_list">
             <a class="new_items list" href="./newproduct.html">週週新品</a>
           </li>
           <li class="hot nav_list">
-            <a class="hot list" href="#">人氣商品</a>
+            <a class="hot list" href="./topitem.html">人氣商品</a>
           </li>
           <li class="item nav_list">
             <div class="item">
-              衣著
+              <span class="item_clothing">NYLA衣著 +</span>
               <ul class="item_list">
                 <li class="item_top">
                   <a href="#">上身</a>
@@ -37,7 +48,7 @@
           </li>
           <li class="acc nav_list">
             <div class="acc">
-              配件
+              <span class="item_clothing_1">NYLA配件 +</span>
               <ul class="acc_list">
                 <li class="acc_bag">
                   <a href="#">包包</a>
@@ -49,57 +60,89 @@
             </div>
           </li>
           <li class="news nav_list">
-            <a class="news" href="#">最新活動</a>
+            <a class="news list" href="./news.html">最新活動</a>
           </li>
         </ul>
+
+        <div class="cart">
+          <a href="./login.html"><img src="./images/user.svg" alt="顧客" ></a>
+          <a href="./cart.html"><img src="./images/cart.svg" alt="購物車" ></a>
+          <a href="#" class="heart"><img src="./images/heart.svg" alt="愛心" /></a>
+          <div class="search">
+            <label for="search_name" class="search_check">
+               <img src="./images/search.svg" alt="搜尋">
+            </label>
+            <input type="text" class="search_bar" placeholder="search">          
+          </div>
+        </div>
       </nav>
-      <div class="search">
-        <input type="text" class="the_text" placeholder="search">
-        <img src="./images/search1.png" alt="搜尋">
-      </div>
-      <div class="cart">
-        <a href="./login.html"><img src="./images/user.png" alt="顧客" ></a>
-        <a href="./cart.html"><img src="./images/cart.png" alt="購物車" ></a>
-        <a href="#" class="heart"><img src="./images/love1.png" alt="愛心" /></a>
-      </div>
     </header>
+    
+    <!-- banner套件 -->
+    <div class="container">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
 
-    <div class="banner">
-      <div class="banner_contorl">
-        <a href="#" class="banner_contorl1"><img src="./images/left.svg" alt="img" ></a>
-        <a href="#" class="banner_contorl2"><img src="./images/right.svg" alt="img" ></a>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="./images/banner.jpg" class="img-responsive pc-ver">       
+          </div>
+          <div class="item">
+            <img src="./images/banner2.jpg" class="img-responsive pc-ver"> 
+          </div>
+          <div class="item">
+            <img src="./images/banner3.jpg" class="img-responsive pc-ver">
+          </div>
+          <div class="item">
+            <img src="./images/banner4.jpg" class="img-responsive pc-ver">
+          </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
     </div>
 
-    <div class="nivo-controlNAV">
-      <!-- <a class="nivo-control" rel="0">1</a>
-      <a class="nivo-control" rel="1">2</a>
-      <a class="nivo-control" rel="2">3</a>
-      <a class="nivo-control" rel="3">4</a> -->
-      <img src="./images/Group 15.png" alt="img" >
-    </div>
 
-
-      <main class="main">
-        <div class="main1">
-          <div class="one1">
-            NEW COLLECTION
-            <br>
-            #2021SS #All you need,all unique
-          </div>
-          <div class="one2">
-            <a href="#" class="main_img1"><img src="./images/unew-1-1.jpg" alt="img" ></a>
-            <a href="#" class="main_img2"><img src="./images/unew-1-2.jpg" alt="img" ></a>
-            <a href="#" class="main_img3"><img src="./images/unew-3-1.jpg" alt="img" ></a>
-          </div>
-        </div>  
-
-        <div class="banner2">JOIN US,
+    <main class="main">
+      <div class="main1">
+        <div class="one1">
+          NEW COLLECTION
           <br>
-          GET FASHION IDEA.</div>
+          #2021SS #All you need,all unique
+        </div>
+        <div class="one2">
+          <a href="#" class="main_img1"><img src="./images/unew-1-1.jpg" alt="img" ></a>
+          <a href="#" class="main_img2"><img src="./images/unew-1-2.jpg" alt="img" ></a>
+          <a href="#" class="main_img3"><img src="./images/unew-3-1.jpg" alt="img" ></a>
+        </div>
+      </div>  
 
-        <div class="main2">
+      <div class="banner2">
+        <span class="pazzo">
+          JOIN US,
+          <br>
+          GET FASHION IDEA.
+        </span>
+      </div>
 
+      <div class="main2">
+        <div class="main2_name">WEEKLY RECOMMEND</div>
+        <div class="main2_two_img">
           <div class="two1">
             <a href="#"><img src="./images/Unew-5-1.jpg" alt="img" ><span>DRESS/</span></a>
           </div>
@@ -108,44 +151,53 @@
             <a href="#" class="bottom7"><img src="./images/Unew-7-1.jpg" alt="img" ><span>BOTTOM/</span></a>
           </div>
           <div class="two3">
-            <a href="#"><img src="./images/unew-8-1.jpg" alt="img" ></a>
+            <a href="#"><img src="./images/unew-8-1.jpg" alt="img" ><span>TOP/</span></a>
           </div>
         </div>
-        <div class="main3">
-            <a href="#" class="three_img1"><img src="./images/banner-5-2.png" alt="img" ></a>
-            <a href="#" class="three_img2"><img src="./images/banner-3-1.jpg" alt="img" ></a>
-        </div>
+      </div>
 
-        <div class="run"> 
-          <pre>SELECTED ITEMS OFFER SPECIAL DISCOUNT OF MAX -$300                                                                                  2th ANNIV.SPECIAL EDITION  COZY SWEATSHIRT/PANTS ONLY $590/pc</pre>
-          <!-- <img src="./images/run-1.png" alt="img"> -->
-        </div>
-        <div class="main4">
-          <a href="#">
-            <img src="./images/banner-6.png" alt="img" >
-          </a>
-        </div>
-        <div class="main5">
-          <div class= "main5_title">LOOK MORE...</div>
-          <div class= "bx">
-            <div class= "main_viewport">
-              <ul class= "viewport_list">
-                <li><a href="#"><img src="./images/min-11.png" alt="img" ></a></li>
-                <li><a href="#"><img src="./images/min-22.png" alt="img" ></a></li>
-                <li><a href="#"><img src="./images/min-33.png" alt="img" ></a></li>
-                <li><a href="#"><img src="./images/min-44.png" alt="img" ></a></li>
-                <li><a href="#"><img src="./images/min-55.png" alt="img" ></a></li>
-              </ul>
-            </div>
-            <div class="main5_contorl">
-              <a href="#" class="main5_contorl1"><img src="./images/contorl-1.png" alt="img" ></a>
-              <a href="#" class="main5_contorl2"><img src="./images/contorl-2.png" alt="img" ></a>
-            </div>
+      <div class="main3">
+        <div class="main3_name">NEW ARRIVALS</div>
+        <div class="main3_photo">
+          <div class="main3_three_img1">
+            <a href="#" class="three_img">
+              <img src="./images/banner-5-2.png" alt="img" >
+              <div class="three_img_text">油畫感不規則綁帶雪紡襯衫</div>
+            </a>
+          </div>
+          <div class="main3_three_img2">
+            <a href="#" class="three_img">
+              <img src="./images/banner-3-1.jpg" alt="img" >
+              <div class="three_img_text">復古圖騰排扣長版針織外套</div>
+            </a>
           </div>
         </div>
-      </main>
+      </div>
 
+      <!-- <div class="run"> 
+        <pre>SELECTED ITEMS OFFER SPECIAL DISCOUNT OF MAX -$300                                                                                  2th ANNIV.SPECIAL EDITION  COZY SWEATSHIRT/PANTS ONLY $590/pc</pre>
+        
+      </div> -->
+      
+      <div class="main4">
+        <div class="main4_name">最新活動-滿額禮</div>
+        <a href="#">
+          <img src="./images/banner-6.png" alt="img" >
+        </a>
+      </div>
 
+      <div class="main5">
+        <div class= "main5_title">LOOK MORE...</div>
+        <div class= "bx">
+          <ul class= "viewport_list">
+            <li><a href="#"><img src="./images/min-11.png" alt="img" ></a></li>
+            <li><a href="#"><img src="./images/min-22.png" alt="img" ></a></li>
+            <li><a href="#"><img src="./images/min-33.png" alt="img" ></a></li>
+            <li><a href="#"><img src="./images/min-44.png" alt="img" ></a></li>
+          </ul>
+        </div>
+      </div>
+    </main>
 
     <footer class="footer">
       <div class="footer_title">
@@ -192,12 +244,76 @@
 
       <div class="tibame">
         本網站為緯育TibaMe前端工程師專業技術養成班第72期學員專題作品，本平台僅供學習、展示之用。
-        參考資源:
+        <br>參考資源:
         <a href="https://www.ures.shop/Shop/">[URES]</a> 
         <a href="https://www.ajpeace.com.tw/">[ajpeace]</a>。
         若有侵權疑慮，您可以私訊
         <a href="https://www.facebook.com/TibaMe/">[緯育TibaMe]<a>，後續會由專人協助處理。
       </div>
     </footer>
-  </body>
+
+    <script>
+      
+      $(function(){
+        // 點擊按鈕，選單縮放
+        $("button.hamburger--spin").on("click", function(){
+          $("nav.nav_list").slideToggle();
+        });
+      });
+
+      $(function(){
+        // 點擊按鈕，選單縮放
+        $("label.search_check").on("click", function(){
+          $("input.search_bar").slideToggle();
+        });
+      });
+
+      $(function(){
+        // 點擊按鈕，選單縮放
+        $("div.item").on("click", function(){
+          $("ul.item_list").slideToggle();
+        });
+      });
+
+      $(function(){
+        // 點擊按鈕，選單縮放
+        $("div.acc").on("click", function(){
+          $("ul.acc_list").slideToggle();
+        });
+      });
+
+      // let tina = document.getElementsByClassName("item")[1];
+      //   tina.addEventListener("click", function(){
+      //     tina.classList.toggle("tina_test");  
+      //   });
+
+      let tina = document.getElementsByClassName("item_clothing")[0];
+        tina.addEventListener("click", function(){
+          tina.classList.toggle("tina_test_1");  
+        });
+
+        let tina1 = document.getElementsByClassName("item_clothing_1")[0];
+        tina1.addEventListener("click", function(){
+          tina1.classList.toggle("tina_test_2");  
+        });
+
+      var $hamburger = $(".hamburger");
+      $hamburger.on("click", function(e) {
+        $hamburger.toggleClass("is-active");
+        // Do something else, like open/close menu
+      });
+
+      let hamham = document.getElementById("hamham");
+      let ul1 = document.getElementsByClassName("item_list")[0];
+      let ul2 = document.getElementsByClassName("acc_list")[0];
+      
+      hamham.addEventListener("click" , function(){
+        ul1.style.display = "none" ;
+        ul2.style.display = "none"  ;
+        tina.classList.remove("tina_test_1");
+        tina1.classList.remove("tina_test_2");
+      });
+    </script>
+
+   </body>
 </html>

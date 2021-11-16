@@ -1,0 +1,144 @@
+@import "./common/header.css";
+@import "./common/footer.css";
+
+/* img{
+  max-width: 100%;
+} */
+
+
+/* body{
+  margin: 0 auto;
+
+  width: 100%;
+
+} */
+
+ /* nav 的當頁特效 */
+a.hot{
+  color: black;
+  font-weight: 900 ;
+  /* font-size: 18px; */
+  border-bottom: 4px solid #E3A063;
+  /* box-shadow: 1px 0px 5px black; */
+  text-shadow: 1px 0px  gray;
+}
+
+/* main 的設置 */
+main.main_topitem{
+  border: 1px solid blue;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+@media screen and (max-width: 575.98px){
+  main.main_topitem{
+    width: 100%;
+  }
+}
+  
+@media screen and (min-width: 576px) and (max-width: 767.98px){
+  main.main_topitem{
+    width: 540px;
+  }
+}
+  
+@media screen and (min-width: 768px) and (max-width: 991.98px){
+  main.main_topitem{
+    width: 720px;
+  }
+}
+    
+@media screen and (min-width: 992px) and (max-width: 1199.98px){
+  main.main_topitem{
+    width: 960px;
+  }
+}
+  
+@media screen and (min-width: 1200px) and (max-width: 1399.98px){
+  main.main_topitem{
+    width: 1140px;
+  }
+}
+  
+@media screen and (min-width: 1400px){
+  main.main_topitem{
+    width: 1320px;
+  }
+}
+
+main > div.topitem_banner > img{
+  width: 100%;
+}
+
+/* 整個下方排行內容的邊框 */
+div.topitem_all{
+  border: 1px solid black;
+/
+  margin: 27px auto 0px auto;
+  /* display: flex; */
+  flex-wrap: wrap;
+
+}
+
+/* TOP1 第一排*/
+div.topitem1{
+  border: 1px solid red;
+  display: flex;
+  margin: 0 auto;
+  width: 1000px;
+    
+}
+/* TOP1 第一排的文字框*/
+div.topitem1 > div.topitem1_1{
+  border: 1px solid red;
+  /* width: 540px;
+  height: 471px; */
+    overflow: hidden;
+
+
+}
+/* TOP1 第一排的照片框*/
+div.topitem1 > a.topitem1img1{
+  border: 1px solid orange;
+  /* width: 535px;
+  height: 471px; */
+
+}
+
+
+/* TOP23 第一排*/
+div.topitem2{
+  border: 1px solid red;
+  display: flex;
+  width: 100%;
+}
+
+div.topitem2 a{
+  border: 1px solid orange;
+  /* width: 510px;
+  height: 540px; */
+  width: 100%;
+}
+
+div.topitem2_2{
+  border: 1px solid black;
+  width: 180px;
+}
+div.topitem2
+
+
+
+
+
+
+
+
+
+
+div.topitem3{
+  border: 1px solid red;
+}
+
+div.topitem4{
+  border: 1px solid red;
+}

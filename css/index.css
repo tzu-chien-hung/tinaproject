@@ -26,7 +26,7 @@ header.header{
 div.logo > a > img{
   margin-bottom: 3.5px;
 }
-div.item{
+div.item1{
   color: black;
 }
 
@@ -212,12 +212,11 @@ div.main4{
 
   main > div.main1 > div.one1{
     width: 100%;
-    height: 100px;
     text-align: center;
-    margin: 0 auto;
-    padding-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
     font-size: 18px;
-    font-weight: bold;  
+    font-weight: bold;
   }
 
 
@@ -244,7 +243,8 @@ div.main4{
     height: 500px;
     background-image: url("../images/mag_model.jpg");
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
+    background-attachment: local;
     background-position: 50% 0px;
     background-size: 1200px 600px;
     position: relative;
@@ -431,10 +431,9 @@ div.main4{
 
   main > div.main1 > div.one1{
     width: 100%;
-    height: 100px;
     text-align: center;
-    margin: 0 auto;
-    padding-top: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
     font-size: 22px;
     font-weight: bold;
   }
@@ -551,6 +550,10 @@ div.main4{
     margin-bottom: 60px;
     font-size: 22px;
     font-weight: bold;
+  }
+  div.main3 > div.main3_name:hover{
+    color:white;
+    text-shadow: 2px 2px 5px black;
   }
 
   div.main3_photo{
@@ -688,7 +691,7 @@ div.main4{
   }
 
   main > div.main1 > div.one2 > a{
-    height: 310px;
+    width: 30%;
     overflow: hidden;
     display: inline-flex;
     justify-content: space-around;
@@ -930,7 +933,7 @@ div.main4{
   }
 
   main > div.main1 > div.one2 > a{
-    height: 400px;
+    width: 30%;
     overflow: hidden;
     display: inline-flex;
     justify-content: space-around;

@@ -1,26 +1,13 @@
 @import "./common/header.css";
 @import "./common/footer.css";
 
-/* img{
-  max-width: 100%;
-} */
-
-
-/* body{
-  margin: 0 auto;
-
-  width: 100%;
-
-} */
-
  /* nav 的當頁特效 */
+ main{
+   margin: 0 auto;
+ }
 a.hot{
-  color: black;
+  color: #E3A063;
   font-weight: 900 ;
-  /* font-size: 18px; */
-  border-bottom: 4px solid #E3A063;
-  /* box-shadow: 1px 0px 5px black; */
-  text-shadow: 1px 0px  gray;
 }
 
 /* main 的設置 */
@@ -30,41 +17,6 @@ main.main_topitem{
   width: 100%;
 }
 
-@media screen and (max-width: 575.98px){
-  main.main_topitem{
-    width: 100%;
-  }
-}
-  
-@media screen and (min-width: 576px) and (max-width: 767.98px){
-  main.main_topitem{
-    width: 540px;
-  }
-}
-  
-@media screen and (min-width: 768px) and (max-width: 991.98px){
-  main.main_topitem{
-    width: 720px;
-  }
-}
-    
-@media screen and (min-width: 992px) and (max-width: 1199.98px){
-  main.main_topitem{
-    width: 960px;
-  }
-}
-  
-@media screen and (min-width: 1200px) and (max-width: 1399.98px){
-  main.main_topitem{
-    width: 1140px;
-  }
-}
-  
-@media screen and (min-width: 1400px){
-  main.main_topitem{
-    width: 1320px;
-  }
-}
 
 main > div.topitem_banner > img{
   width: 100%;
@@ -73,7 +25,7 @@ main > div.topitem_banner > img{
 /* 整個下方排行內容的邊框 */
 div.topitem_all{
   border: 1px solid black;
-/
+
   margin: 27px auto 0px auto;
   /* display: flex; */
   flex-wrap: wrap;
@@ -86,6 +38,8 @@ div.topitem1{
   display: flex;
   margin: 0 auto;
   width: 1000px;
+  display: flex;
+  justify-content:center;
     
 }
 /* TOP1 第一排的文字框*/
@@ -93,7 +47,7 @@ div.topitem1 > div.topitem1_1{
   border: 1px solid red;
   /* width: 540px;
   height: 471px; */
-    overflow: hidden;
+  overflow: hidden;
 
 
 }
@@ -118,27 +72,126 @@ div.topitem2 a{
   /* width: 510px;
   height: 540px; */
   width: 100%;
+  display: inline-block;
 }
 
 div.topitem2_2{
   border: 1px solid black;
   width: 180px;
 }
-div.topitem2
+div.topitem2{
+
+}
 
 
 
-
-
-
-
-
+div > div > a{
+  position: relative;
+  overflow: hidden;
+}
+div> div > a:hover > div{
+  transform: translateY(0%);
+}
+div > div > a > div{
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.404);
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  font-size: 24px;
+  bottom :0px;
+  text-align: center;
+  display: inline-block;
+  transform: translateY(100%);
+  left:0px;
+  transition:500ms ;
+}
 
 
 div.topitem3{
   border: 1px solid red;
+  display: flex;
+  justify-content: center;
 }
-
+div.topitem3 > div > a{
+  position: relative;
+  overflow: hidden;
+}
+div.topitem3 > div > a:hover > div{
+  transform: translateY(0%);
+}
+div.topitem3 > div > a > div{
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.404);
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  font-size: 24px;
+  bottom :0px;
+  text-align: center;
+  display: inline-block;
+  transform: translateY(100%);
+  left:0px;
+  transition:500ms ;
+} 
+div.topitem3 > div > span{
+  font-size: 2em;
+}
+div.topitem3 > div{
+  display: flex;
+  flex-direction: column;
+}
+div.topitem4 > div{
+  display: inline-block;
+  width: 30%;
+  display: flex;
+  justify-content:center;
+}
 div.topitem4{
   border: 1px solid red;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 575.98px){
+  main.main_topitem{
+    width: 100%;
+  }
+  div> div > a > div{
+    transform: translateY(0%);
+    font-size: 18px;
+  }
+}
+  
+@media screen and (min-width: 576px) and (max-width: 767.98px){
+  main.main_topitem{
+    width: 540px;
+  }
+  div > div > a > div{
+    transform: translateY(0%);
+  }
+}
+  
+@media screen and (min-width: 768px) and (max-width: 991.98px){
+  main.main_topitem{
+    /* width: 720px; */
+  }
+}
+    
+@media screen and (min-width: 992px) and (max-width: 1199.98px){
+  main.main_topitem{
+    /* width: 960px; */
+  }
+}
+  
+@media screen and (min-width: 1200px) and (max-width: 1399.98px){
+  main.main_topitem{
+    /* width: 1140px; */
+  }
+}
+  
+@media screen and (min-width: 1400px){
+  main.main_topitem{
+    /* width: 1320px; */
+  }
 }

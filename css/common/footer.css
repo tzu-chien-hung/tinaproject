@@ -29,6 +29,12 @@ footer > div.footer_title{
   width: 100%;
 
 }
+
+div.footer_menu > ul > li > a:hover{
+  color: #E3A063;
+  text-decoration: none;
+}
+
 /*================  框線  ======================*/
 /* footer > div.footer_menu > ul{
   border: 1px solid black;
@@ -125,7 +131,6 @@ div.footer_social1{
     height: 70px;
     /* width: 265px; */
     font-size: 12px;
-    display: flex;
     align-items:center;
     margin-left: 5px;
   }
@@ -144,7 +149,7 @@ div.footer_social1{
   }
 
   div.footer_social1{
-    font-size: 3px;
+    font-size: 10px;
     text-align: center;
   }
 }
@@ -215,7 +220,7 @@ div.footer_social1{
     /* background-color: #E3A063; */
     border-radius: 20px;
     margin: 0 auto;
-    border: 3px solid #E3A063 ;
+    /* border: 3px solid #E3A063 ; */
     display: flex;
     text-align: center;
     align-items:center;

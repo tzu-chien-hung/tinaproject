@@ -29,11 +29,11 @@
             <a class="new_items list" href="./newproduct.html">週週新品</a>
           </li>
           <li class="hot nav_list">
-            <a class="hot list" href="./topitem.html">人氣商品</a>
+            <a class="hot list" href="./topitem.html">暢銷商品</a>
           </li>
-          <li class="item nav_list">
-            <div class="item">
-              <span class="item_clothing">NYLA衣著</span>
+          <li class="item1 nav_list">
+            <div class="item1">
+              <span class="item_clothing">NYLA衣著 +</span>
               <ul class="item_list">
                 <li class="item_top">
                   <a href="#">上身</a>
@@ -46,7 +46,7 @@
           </li>
           <li class="acc nav_list">
             <div class="acc">
-              <span class="item_clothing_1">NYLA配件</span>
+              <span class="item_clothing_1">NYLA配件 +</span>
               <ul class="acc_list">
                 <li class="acc_bag">
                   <a href="#">包包</a>
@@ -113,7 +113,7 @@
           <span> 10/20 新品 </span>
         </div>
 
-        <div class="main_newproduct2">
+        <div class="main_newproduct_all_list">
           <div class="main_newproduct2_list">
             <a href="#" class="main_newproduct_list1_img img">
               <img src="./images/page2-new/5120216710-01.jpg" alt="img" >
@@ -143,10 +143,7 @@
             <br>
             <span>NT.490</span>
           </div>
-        </div>
 
-
-        <div class="main_newproduct3">
           <div class="main_newproduct3_list">
             <a href="#" class="main_newproduct3_list1_img img">
               <img src="./images/page2-new/1130205980-01.jpg" alt="img" >
@@ -176,9 +173,7 @@
             <br>
             <span>NT.390</span>
           </div>
-        </div>
 
-        <div class="main_newproduct4">
           <div class="main_newproduct4_list">
             <a href="#" class="main_newproduct4_list1_img img">
               <img src="./images/page2-new/1130107430-01.jpg" alt="img" >
@@ -208,9 +203,7 @@
             <br>
             <span>NT.390</span>
           </div>
-        </div>
 
-        <div class="main_newproduct5">
           <div class="main_newproduct5_list">
             <a href="#" class="main_newproduct5_list1_img img">
               <img src="./images/page2-new/1130108821-01.jpg" alt="img" >
@@ -240,6 +233,7 @@
             <br>
             <span>NT.490</span>
           </div>
+
         </div>
 
         <div class="main_newproduct6">
@@ -247,8 +241,6 @@
           <a href="./newproduct.html" class="newproduct_page2"> 2 </a>
           <a href="./newproduct.html" class="newproduct_nextpage"> &gt; </a>
         </div>
-      
-      </div>
       </main>
     </div>
 
@@ -306,67 +298,6 @@
       </div>
     </footer>
 
-    <script>
-      
-      $(function(){
-        // 點擊按鈕，選單縮放
-        $("button.hamburger--spin").on("click", function(){
-          $("nav.nav_list").slideToggle();
-        });
-      });
-
-      $(function(){
-        // 點擊按鈕，選單縮放
-        $("label.search_check").on("click", function(){
-          $("input.search_bar").slideToggle();
-        });
-      });
-
-      $(function(){
-        // 點擊按鈕，選單縮放
-        $("div.item").on("click", function(){
-          $("ul.item_list").slideToggle();
-        });
-      });
-
-      $(function(){
-        // 點擊按鈕，選單縮放
-        $("div.acc").on("click", function(){
-          $("ul.acc_list").slideToggle();
-        });
-      });
-
-      // let tina = document.getElementsByClassName("item")[1];
-      //   tina.addEventListener("click", function(){
-      //     tina.classList.toggle("tina_test");  
-      //   });
-
-      let tina = document.getElementsByClassName("item_clothing")[0];
-        tina.addEventListener("click", function(){
-          tina.classList.toggle("tina_test_1");  
-        });
-
-        let tina1 = document.getElementsByClassName("item_clothing_1")[0];
-        tina1.addEventListener("click", function(){
-          tina1.classList.toggle("tina_test_2");  
-        });
-
-      var $hamburger = $(".hamburger");
-      $hamburger.on("click", function(e) {
-        $hamburger.toggleClass("is-active");
-        // Do something else, like open/close menu
-      });
-
-      let hamham = document.getElementById("hamham");
-      let ul1 = document.getElementsByClassName("item_list")[0];
-      let ul2 = document.getElementsByClassName("acc_list")[0];
-      
-      hamham.addEventListener("click" , function(){
-        ul1.style.display = "none" ;
-        ul2.style.display = "none"  ;
-        tina.classList.remove("tina_test_1");
-        tina1.classList.remove("tina_test_2");
-      });
-    </script>
+    <script src="./js/hamburger.js"></script>
   </body>
 </html>

@@ -160,6 +160,11 @@ div.topitem4 > div> a >  img{
 }
 
 @media screen and (max-width: 575.98px){
+
+  div.topitem_all > div{
+    margin-top: 30px;
+  }
+  
   main.main_topitem{
     width: 100%;
   }
@@ -211,12 +216,21 @@ div.topitem4 > div> a >  img{
   main.main_topitem{
     /* width: 960px; */
   }
+  div.topitem_all > div{
+    margin-top: 30px;
+  }
+  
 }
   
 @media screen and (min-width: 1200px) and (max-width: 1399.98px){
   main.main_topitem{
     /* width: 1140px; */
   }
+
+  div.topitem_all > div{
+    margin-top: 30px;
+  }
+  
 }
   
 @media screen and (min-width: 1400px){

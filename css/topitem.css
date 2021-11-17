@@ -12,7 +12,7 @@ a.hot{
 
 /* main 的設置 */
 main.main_topitem{
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   flex-wrap: wrap;
   width: 100%;
 }
@@ -24,8 +24,7 @@ main > div.topitem_banner > img{
 
 /* 整個下方排行內容的邊框 */
 div.topitem_all{
-  border: 1px solid black;
-
+  /* border: 1px solid black; */
   margin: 27px auto 0px auto;
   /* display: flex; */
   flex-wrap: wrap;
@@ -34,7 +33,7 @@ div.topitem_all{
 
 /* TOP1 第一排*/
 div.topitem1{
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   margin: 0 auto;
   width: 1000px;
@@ -44,7 +43,7 @@ div.topitem1{
 }
 /* TOP1 第一排的文字框*/
 div.topitem1 > div.topitem1_1{
-  border: 1px solid red;
+  /* border: 1px solid red; */
   /* width: 540px;
   height: 471px; */
   overflow: hidden;
@@ -53,7 +52,7 @@ div.topitem1 > div.topitem1_1{
 }
 /* TOP1 第一排的照片框*/
 div.topitem1 > a.topitem1img1{
-  border: 1px solid orange;
+  /* border: 1px solid orange; */
   /* width: 535px;
   height: 471px; */
 
@@ -62,13 +61,13 @@ div.topitem1 > a.topitem1img1{
 
 /* TOP23 第一排*/
 div.topitem2{
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   width: 100%;
 }
 
 div.topitem2 a{
-  border: 1px solid orange;
+  /* border: 1px solid orange; */
   /* width: 510px;
   height: 540px; */
   width: 100%;
@@ -76,7 +75,7 @@ div.topitem2 a{
 }
 
 div.topitem2_2{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 180px;
 }
 div.topitem2{
@@ -109,7 +108,7 @@ div > div > a > div{
 
 
 div.topitem3{
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   justify-content: center;
 }
@@ -148,9 +147,16 @@ div.topitem4 > div{
   justify-content:center;
 }
 div.topitem4{
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   justify-content: center;
+}
+div.topitem4 > div{
+  display: flex;
+  flex-direction: column;
+}
+div.topitem4 > div> a >  img{
+  width: 100%;
 }
 
 @media screen and (max-width: 575.98px){
@@ -158,9 +164,32 @@ div.topitem4{
     width: 100%;
   }
   div> div > a > div{
-    transform: translateY(0%);
+    transform: translateY(0%) !important;
+    font-size: 18px !important;
+  }
+ 
+  div.topitem1_1 > span{
+    display: block;
+    margin-top: 30px;
+    font-size: 12px;
+  }
+  h1{
+    font-size: 20px;
+  }
+  div.notes4_2{
+    font-size: 12px;
+  }
+  div.topitem4 > div > span{
     font-size: 18px;
   }
+  div.topitem4 > div > a >span{
+    font-size: 18px;
+  }
+
+  div.notes_2_1{
+
+  }
+
 }
   
 @media screen and (min-width: 576px) and (max-width: 767.98px){

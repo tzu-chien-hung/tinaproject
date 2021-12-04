@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    p{
+      border: 1px solid red;
+      width: 20px;
+      height: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <div></div>
+  <div>商品名稱1</div>
+    <button class="item">
+      加入購物車
+    </button>
+  
+  <div>商品名稱2</div>
+    <button class="item">
+      加入購物車
+    </button>
+  
+  <div>商品名稱3</div>
+    <button class="item">
+      加入購物車
+    </button>
+  
+  <div>商品名稱4</div>
+    <button class="item">
+      加入購物車
+    </button>
+  
+  <div>商品名稱5</div>
+    <button class="item">
+      加入購物車
+    </button>
+  
+
+  <p></p>
+  <script>
+    let a = document.getElementsByTagName('div')[0]
+    let b = document.getElementsByTagName('span')
+    let c = document.getElementsByTagName('button')
+    let d = document.getElementsByTagName('p')[0]
+    // c.addEventListener('click',function(){
+    //   a.insertAdjacentHTML('beforeend','<span>' + '123' + '</span>')
+    //   d.innerText = b.length
+    // })
+    document.addEventListener('click', function (e) {
+      if (e.target.classList.contains('item')) {
+        let gg = e.target.previousElementSibling.innerText
+
+        a.insertAdjacentHTML('beforeend', '<span>' + gg + '</span>')
+        d.innerText = b.length
+        
+        // for(let i = 0;i < c.length;i++){
+
+        // }
+      }
+    })
+  </script>
+</body>
+
+</html>

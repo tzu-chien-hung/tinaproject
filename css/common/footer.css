@@ -34,7 +34,10 @@ div.footer_menu > ul > li > a:hover{
   color: #E3A063;
   text-decoration: none;
 }
-
+div.footer_social_icon > a > img:hover{
+  transform:scale(1.2,1.2);
+  transition: .6s;
+}
 /*================  框線  ======================*/
 /* footer > div.footer_menu > ul{
   border: 1px solid black;
@@ -312,8 +315,8 @@ div.footer_social1{
   }
   div.footer_social_icon > a {
     padding: 10px 10px 10px 10px;
+    transform:scale(1.2,1.2);
   }
-
   div.footer_social1{
     font-size: 10px;
     text-align: center;

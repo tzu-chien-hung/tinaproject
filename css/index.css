@@ -16,7 +16,21 @@ div.main2 > div.main2_two_img > div > a {
   text-decoration: none;
   font-size: 16px;
 }
-
+.coat6{
+  display: inline-block;
+  margin-bottom: 30px;
+}
+.coat6:hover{
+  box-shadow: 2px 2px 5px 5px gray;
+  transition: .5s;
+}
+.bottom7{
+  display: inline-block;
+}
+.bottom7:hover{
+  box-shadow: 2px 2px 5px 5px gray;
+  transition: .5s;
+}
 /*  ========  原先的carousel.css 裡面的 =========*/
 header.header{
   font-size: 16px;
@@ -203,7 +217,7 @@ div.main4{
 
 @media screen and (max-width: 575.98px){
   main > div.main1{
-    border: 3px solid  #E3A063;
+    /* border: 3px solid  #E3A063; */
     border-radius: 40px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -301,7 +315,10 @@ div.main4{
     justify-content: center;
     width: 49%;
   }  
-
+  div.main2 > div.main2_two_img > div.two2:hover{
+    box-shadow: 2px 2px 5px gray;
+    transition: .5s;
+  }
   div.main2 > div.main2_two_img > div.two3{
     width: 100%;
     display: flex;
@@ -422,7 +439,7 @@ div.main4{
 @media screen and (min-width: 576px) and (max-width: 767.98px){
 
   main > div.main1{
-    border: 3px solid  #E3A063;
+    /* border: 3px solid  #E3A063; */
     border-radius: 40px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -439,8 +456,8 @@ div.main4{
   }
 
   div.main1 > div.one1:hover{
-    color:white;
-    text-shadow: 2px 2px 5px black;
+    color:#E3A063;
+    transition: .5s;
   }
 
   main > div.main1 > div.one2{
@@ -526,7 +543,10 @@ div.main4{
     justify-content: center;
     width: 49%;
   }  
-
+  div.main2 > div.main2_two_img > div.two2:hover{
+    box-shadow: 2px 2px 5px gray;
+    transition: .5s;
+  }
   div.main2 > div.main2_two_img > div.two3{
     width: 100%;
     display: flex;
@@ -553,7 +573,7 @@ div.main4{
   }
   div.main3 > div.main3_name:hover{
     color:white;
-    text-shadow: 2px 2px 5px black;
+
   }
 
   div.main3_photo{
@@ -657,16 +677,14 @@ div.main4{
   main > div.main1{
     margin-top: 10px;
     position: relative;
-    background-color: #E3A063;
-    border-radius: 100px 100px 0px 0px ;
-  }
-  main > div.main1{
+    /* background-color: #E3A063; */
+    border-radius: 40px 40px 0px 0px ;
     height: 500px;
     margin-top: 10px;
     position: relative;
-    border: 5px solid orange;
-    background-color: #E3A063;
-    border-radius: 100px 100px 0px 0px ;
+    /* border: 3px solid  #E3A063; */
+    /* background-color: #E3A063; */
+    border-radius: 40px 40px 0px 0px ;
   }
 
   main > div.main1 > div.one1{
@@ -680,8 +698,8 @@ div.main4{
   }
 
   div.main1 > div.one1:hover{
-    color:white;
-    text-shadow: 2px 2px 5px black;
+    color:#E3A063;
+    transition: .5s;
   }
 
   main > div.main1 > div.one2{
@@ -692,6 +710,7 @@ div.main4{
 
   main > div.main1 > div.one2 > a{
     width: 30%;
+    border-radius: 20px;
     overflow: hidden;
     display: inline-flex;
     justify-content: space-around;
@@ -759,7 +778,10 @@ div.main4{
     margin-right: 25px;
     width: 285px;
   }
-
+  div.main2 > div.main2_two_img > div.two2:hover{
+    box-shadow: 2px 2px 5px gray;
+    transition: .5s;
+  }
   div.main2 > div.main2_two_img > div.two3{
     width: 592px;
     
@@ -902,40 +924,40 @@ div.main4{
   /*=====================================  main1  ========================================*/
   main > div.main1{
     height: 625px;
-    margin-top: 10px;
+    margin-top: 60px;
     position: relative;
-    border: 5px solid orange;
-    background-color: #E3A063;
-    border-radius: 100px 100px 0px 0px ;
+    border-radius: 40px 40px 0px 0px ;
   }
 
   main > div.main1 > div.one1{
     width: 100%;
     height: 100px;
     text-align: center;
-    margin: 0 auto;
-    padding-top: 30px;
+    margin: 50px auto 20px auto;
     font-size: 25px;
     font-weight: bold;
   }
 
   div.main1 > div.one1:hover{
-    color:white;
-    text-shadow: 2px 2px 5px black;
+    color:#E3A063;
+    transition: .5s;
+    /* text-shadow: 2px 2px 5px gray; */
   }
 
   main > div.main1 > div.one2{
     height: 423px;
     margin: 30px 10px 0px 10px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
+    /* text-align: center;
+    align-items: center; */
+    display: inline-flex;
+    justify-content: space-around;
   }
 
   main > div.main1 > div.one2 > a{
     width: 30%;
+    border-radius: 20px;
     overflow: hidden;
-    display: inline-flex;
+    /* display: inline-flex; */
     justify-content: space-around;
     /* flex-shrink：0; */
   }
@@ -1017,6 +1039,8 @@ div.main4{
 
   div.two3:hover{
     transform: translateY(-3%);
+    box-shadow: 2px 2px 5px 5px gray;
+    transition: .5s;
   }
 
   /*=====================================  main3  ========================================*/

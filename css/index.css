@@ -31,6 +31,22 @@ div.main2 > div.main2_two_img > div > a {
   box-shadow: 2px 2px 5px 5px gray;
   transition: .5s;
 }
+div.main1 > div.one1:hover{
+  color:#E3A063;
+  transition: .5s;
+}
+div.main2_name:hover{
+  color:#E3A063;
+  transition: .5s;
+}
+div.main3_name:hover{
+  color:#E3A063;
+  transition: .5s;
+}
+div.main4_name:hover{
+  color:#E3A063;
+  transition: .5s;
+}
 /*  ========  原先的carousel.css 裡面的 =========*/
 header.header{
   font-size: 16px;
@@ -515,11 +531,6 @@ div.main4{
     font-size: 22px;
     font-weight: bold;
   }
-  
-  main > div.main2 > div.main2_name:hover{
-    color:white;
-    text-shadow: 2px 2px 5px black;
-  }
 
   div.main2 > div.main2_two_img{
     display: flex;
@@ -570,10 +581,6 @@ div.main4{
     margin-bottom: 60px;
     font-size: 22px;
     font-weight: bold;
-  }
-  div.main3 > div.main3_name:hover{
-    color:white;
-
   }
 
   div.main3_photo{
@@ -627,12 +634,6 @@ div.main4{
     font-size: 22px;
     font-weight: bold;
   }
-
-  main > div.main4 > div.main4_name:hover{
-    color:white;
-    text-shadow: 2px 2px 5px black;
-  }
-
 
    /*===============================================  main5  ==================================*/
 
@@ -759,11 +760,6 @@ div.main4{
     font-size: 22px;
     font-weight: bold;
   }
-  
-  main > div.main2 > div.main2_name:hover{
-    color:white;
-    text-shadow: 2px 2px 5px black;
-  }
 
   div.main2 > div.main2_two_img{
     display: flex;
@@ -806,11 +802,6 @@ div.main4{
     margin-bottom: 60px;
     font-size: 22px;
     font-weight: bold;
-  }
-
-  main > div.main3 > div.main3_name:hover{
-    color:white;
-    text-shadow: 2px 2px 5px black;
   }
 
   /* ===============================  main3 兩張照片  ============================ */
@@ -873,11 +864,6 @@ div.main4{
     margin-bottom: 60px;
     font-size: 22px;
     font-weight: bold;
-  }
-
-  main > div.main4 > div.main4_name:hover{
-    color:white;
-    text-shadow: 2px 2px 5px black;
   }
 
 
@@ -1014,10 +1000,6 @@ div.main4{
     font-weight: bold;
   }
   
-  main > div.main2 > div.main2_name:hover{
-    color:white;
-    text-shadow: 2px 2px 5px black;
-  }
 
   div.main2 > div.main2_two_img{
     display: flex;
@@ -1058,16 +1040,15 @@ div.main4{
     font-weight: bold;
   }
 
-  main > div.main3 > div.main3_name:hover{
-    color:white;
-    text-shadow: 2px 2px 5px black;
-  }
 
   /* ==========  main3 兩張照片  =========== */
 
   div.main3_photo{
     display: flex;
     justify-content: space-between;
+  }
+  div.main3_photo > div{
+    width: 24%;
   }
 
   div.main3_photo > div.main3_three_img1 > a.three_img{
@@ -1078,6 +1059,7 @@ div.main4{
     overflow: hidden;
     border-radius: 20px;
     color: black;
+    font-size: 12px;
   }
   div.main3_photo > div > a.three_img > img{
     width:100%;
@@ -1088,7 +1070,7 @@ div.main4{
     width: 100%;
     height: 50px;
     line-height: 50px;
-    font-size: 24px;
+    font-size: 18px;
     bottom :0px;
     text-align: center;
     display: inline-block;
@@ -1102,7 +1084,7 @@ div.main4{
   }
   div.main3_photo > div.main3_three_img2 > a.three_img{
     display: inline-block;
-    background-size: 100%;
+    background-size: 90%;
     background-repeat: no-repeat;
     position: relative;
     overflow: hidden;
@@ -1124,11 +1106,6 @@ div.main4{
     margin-bottom: 60px;
     font-size: 25px;
     font-weight: bold;
-  }
-
-  main > div.main4 > div.main4_name:hover{
-    color:white;
-    text-shadow: 2px 2px 5px black;
   }
 
 

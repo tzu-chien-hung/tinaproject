@@ -4,6 +4,7 @@
  /* nav 的當頁特效 */
  main{
    margin: 0 auto;
+   letter-spacing: 2px;
  }
 a.hot{
   color: #E3A063;
@@ -35,7 +36,7 @@ div.topitem_all{
 div.topitem1{
   /* border: 1px solid red; */
   display: flex;
-  margin: 0 auto;
+  margin: 0 auto 30px auto;
   width: 1000px;
   display: flex;
   justify-content:center;
@@ -44,45 +45,73 @@ div.topitem1{
 /* TOP1 第一排的文字框*/
 div.topitem1 > div.topitem1_1{
   /* border: 1px solid red; */
-  /* width: 540px;
-  height: 471px; */
+  text-align: center;
+  margin: auto;
+  width: 540px;
+  /* height: 471px; */
   overflow: hidden;
+}
 
-
+.topitem1_1:hover  h1 svg{
+  transition: 1s;
+  transform:translateX(20px);
+}
+div.topitem1_1 > span{
+  font-weight: 700;
 }
 /* TOP1 第一排的照片框*/
 div.topitem1 > a.topitem1img1{
   /* border: 1px solid orange; */
   /* width: 535px;
   height: 471px; */
+  border-radius: 20px;
 
 }
 
 
 /* TOP23 第一排*/
 div.topitem2{
-  /* border: 1px solid red; */
   display: flex;
   width: 100%;
   justify-content: center;
+  margin:30px auto;
 }
-
+.topitem2_1{
+  width: 35%;
+}
+.topitem2_3{
+  width: 35%;
+}
 div.topitem2 a{
-  /* border: 1px solid orange; */
   /* width: 510px;
   height: 540px; */
   width: 100%;
+  border-radius: 20px;
   display: inline-block;
 }
 
 div.topitem2_2{
   /* border: 1px solid black; */
-  width: 180px;
+  width: 12%;
+  text-align: center;
+  margin: auto 30px;
 }
-div.topitem2{
 
+.topitem2_2 > span > h1.arrow_left:hover > svg{
+  transition: 1s;
+  transform:translateX(-20px);
 }
 
+.topitem2_2 > span > h1.arrow_right:hover > svg{
+  transition: 1s;
+  transform: translateX(20px);
+}
+.topitem2_text{
+  /* border: 1px solid black; */
+  display: inline-block;
+  margin: 100px auto;
+  /* margin-bottom: 40px; */
+}
 
 
 div > div > a{

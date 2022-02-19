@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-Hant">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-  <title>Document</title>
-  <link rel="stylesheet" href="./css/news.css">
+  <title>最新活動</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="./css/topitem.css">
 </head>
+
 <body>
   <header class="header">
-
     <div class="logo">
       <a href="./index.html">
         <img src="./images/logo1.jpg" alt="圖片">
@@ -26,11 +29,11 @@
           <a class="new_items list" href="./newproduct.html">週週新品</a>
         </li>
         <li class="hot nav_list">
-          <a class="hot list" href="./topitem.html">人氣商品</a>
+          <a class="hot list" href="./topitem.html">暢銷商品</a>
         </li>
-        <li class="item nav_list">
-          <div class="item">
-            <span class="item_clothing">NYLA衣著</span>
+        <li class="item1 nav_list">
+          <div class="item1">
+            <span class="item_clothing">NYLA衣著 +</span>
             <ul class="item_list">
               <li class="item_top">
                 <a href="#">上身</a>
@@ -43,7 +46,7 @@
         </li>
         <li class="acc nav_list">
           <div class="acc">
-            <span class="item_clothing_1">NYLA配件</span>
+            <span class="item_clothing_1">NYLA配件 +</span>
             <ul class="acc_list">
               <li class="acc_bag">
                 <a href="#">包包</a>
@@ -60,21 +63,26 @@
       </ul>
 
       <div class="cart">
-        <a href="./login.html"><img src="./images/user.svg" alt="顧客" ></a>
-        <a href="./cart.html"><img src="./images/cart.svg" alt="購物車" ></a>
+        <a href="./login.html"><img src="./images/user.svg" alt="顧客"></a>
+        <a href="./cart.html"><img src="./images/cart.svg" alt="購物車"></a>
         <a href="#" class="heart"><img src="./images/heart.svg" alt="愛心" /></a>
         <div class="search">
           <label for="search_name" class="search_check">
-             <img src="./images/search.svg" alt="搜尋">
+            <img src="./images/search.svg" alt="搜尋">
           </label>
-          <input type="text" class="search_bar" placeholder="search">          
+          <input type="text" class="search_bar" placeholder="search">
         </div>
       </div>
     </nav>
   </header>
-  <main>
-    
+
+  <main class="main_topitem">
+    <div class="topitem_banner">
+      <img src="./images/page4-topitem/top1.jpg" alt="img">
+    </div>
+
   </main>
+
   <footer class="footer">
     <div class="footer_title">
       <span>Little Good Things Of Everyday Life.</span>
@@ -102,8 +110,8 @@
           165 ANTI - FRAUD
         </div>
       </div>
-    
-    
+
+
       <div class="footer_social">
         <div class="footer_social_icon">
           <a href="#"><img src="./images/fb1.svg" alt="facebook" /></a>
@@ -121,11 +129,14 @@
     <div class="tibame">
       本網站為緯育TibaMe前端工程師專業技術養成班第72期學員專題作品，本平台僅供學習、展示之用。
       參考資源:
-      <a href="https://www.ures.shop/Shop/">[URES]</a> 
+      <a href="https://www.ures.shop/Shop/">[URES]</a>
       <a href="https://www.ajpeace.com.tw/">[ajpeace]</a>。
       若有侵權疑慮，您可以私訊
       <a href="https://www.facebook.com/TibaMe/">[緯育TibaMe]<a>，後續會由專人協助處理。
     </div>
   </footer>
+
+  <script src="./js/hamburger.js"></script>
 </body>
+
 </html>

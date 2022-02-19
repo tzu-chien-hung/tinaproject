@@ -26,7 +26,7 @@ main > div.topitem_banner > img{
 /* 整個下方排行內容的邊框 */
 div.topitem_all{
   /* border: 1px solid black; */
-  margin: 27px auto 0px auto;
+  margin: 30px auto 0px auto;
   /* display: flex; */
   flex-wrap: wrap;
 
@@ -60,7 +60,7 @@ div.topitem1_1 > span{
   font-weight: 700;
 }
 /* TOP1 第一排的照片框*/
-div.topitem1 > a.topitem1img1{
+div.topitem1 > a.topitem1img1 img{
   /* border: 1px solid orange; */
   /* width: 535px;
   height: 471px; */
@@ -82,14 +82,14 @@ div.topitem2{
 .topitem2_3{
   width: 35%;
 }
-div.topitem2 a{
-  /* width: 510px;
-  height: 540px; */
+div.topitem2 a {
+
   width: 100%;
-  border-radius: 20px;
   display: inline-block;
 }
-
+div.topitem2 a img{
+  border-radius: 20px;
+}
 div.topitem2_2{
   /* border: 1px solid black; */
   width: 12%;
@@ -141,6 +141,12 @@ div.topitem3{
   display: flex;
   justify-content: center;
 }
+.topitem3_1{
+  margin-right: 10px;
+}
+.topitem3_2{
+  margin-left: 10px;
+}
 div.topitem3 > div > a{
   position: relative;
   overflow: hidden;
@@ -159,7 +165,7 @@ div.topitem3 > div > a > div{
   text-align: center;
   display: inline-block;
   transform: translateY(100%);
-  left:0px;
+  left: 0px;
   transition:500ms ;
 } 
 /* div.topitem3 > div > span{
@@ -169,7 +175,7 @@ div.topitem3 > div{
   display: flex;
   flex-direction: column;
 }
-.topitem3 div a{
+.topitem3 div a img{
   border-radius: 20px;
 }
 
@@ -177,16 +183,17 @@ div.topitem4{
   /* border: 1px solid red; */
   display: flex;
   justify-content: center;
-   margin: 30px auto;
+  margin: 30px auto;
 }
+
 div.topitem4 > div{
   display: inline-block;
   width: 25%;
   display: flex;
-  justify-content: center;
+  margin: 0px 10px;
   flex-direction: column;
 }
-.topitem4 div a{
+.topitem4 div a img{
   border-radius: 20px;
 }
 
@@ -209,6 +216,7 @@ margin-top: 20px;
   transition: 1s;
   transform:translateY(20px);
 }
+
 @media screen and (max-width: 575.98px){
 
   div.topitem_all > div{

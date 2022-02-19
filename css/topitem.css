@@ -36,7 +36,7 @@ div.topitem_all{
 div.topitem1{
   /* border: 1px solid red; */
   display: flex;
-  margin: 0 auto 30px auto;
+  margin: 0 auto 60px auto;
   width: 1000px;
   display: flex;
   justify-content:center;
@@ -74,7 +74,7 @@ div.topitem2{
   display: flex;
   width: 100%;
   justify-content: center;
-  margin:30px auto;
+  margin: 60px auto;
 }
 .topitem2_1{
   width: 35%;
@@ -183,7 +183,7 @@ div.topitem4{
   /* border: 1px solid red; */
   display: flex;
   justify-content: center;
-  margin: 30px auto;
+  margin: 60px auto;
 }
 
 div.topitem4 > div{

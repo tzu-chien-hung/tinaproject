@@ -1,0 +1,256 @@
+
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>商品詳情</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="./css/productDetail.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="logo">
+      <a href="./index.html">
+        <img src="./images/logo1.jpg" alt="圖片">
+      </a>
+    </div>
+    <button type="button" class="hamburger hamburger--spin btn_switch" id="hamham">
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
+    </button>
+    <nav class="nav_list">
+      <ul class="nav_list_ul">
+        <li class="new_items nav_list">
+          <a class="new_items list" href="./newproduct.html">週週新品</a>
+        </li>
+        <li class="hot nav_list">
+          <a class="hot list" href="./topitem.html">暢銷商品</a>
+        </li>
+        <li class="item1 nav_list">
+          <div class="item1">
+            <span class="item_clothing">NYLA衣著 +</span>
+            <ul class="item_list">
+              <li class="item_top">
+                <a href="#">上身</a>
+              </li>
+              <li class="item_bottom">
+                <a href="#">下著</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="acc nav_list">
+          <div class="acc">
+            <span class="item_clothing_1">NYLA配件 +</span>
+            <ul class="acc_list">
+              <li class="acc_bag">
+                <a href="#">包包</a>
+              </li>
+              <li class="acc_ear">
+                <a href="#">飾品</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="news nav_list">
+          <a class="news list" href="./news.html">最新活動</a>
+        </li>
+      </ul>
+
+      <div class="cart">
+        <a href="./login.html"><img src="./images/user.svg" alt="顧客"></a>
+        <a href="./cart.html"><img src="./images/cart.svg" alt="購物車"></a>
+        <a href="#" class="heart"><img src="./images/heart.svg" alt="愛心" /></a>
+        <div class="search">
+          <label for="search_name" class="search_check">
+            <img src="./images/search.svg" alt="搜尋">
+          </label>
+          <input type="text" class="search_bar" placeholder="search">
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main_topitem">
+    <div class="topitem_banner">
+      <img src="./images/page4-topitem/top1.jpg" alt="img">
+    </div>
+
+    <div class="topitem_all">
+      <div class="topitem1">
+        <div class="topitem1_1">
+          <h1>
+            TOP 1 &ensp;
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-right"
+              viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+            </svg>
+            <br>
+            率性工裝背心 NT.599
+          </h1>
+          <br>
+          <span>
+            率性男友LOOK
+            <br>
+            舒服度直接滿分
+            <br>
+            寬鬆、休閒又無拘無束
+            <br>
+            展現不做作的生活態度
+          </span>
+        </div>
+        <a href="#" class="topitem1img1">
+          <img src="./images/page-topitem/top123.jpg" alt="img">
+        </a>
+      </div>
+
+      <div class="topitem2">
+        <div class="topitem2_1">
+          <a href="#" class="topitem2img1">
+            <img src="./images/page-topitem/top124.jpg" alt="img">
+            <div class="notes_2_1">
+              優雅打摺短裙 NT.399
+            </div>
+          </a>
+        </div>
+
+        <div class="topitem2_2">
+          <span>
+            <h1 class="arrow_left">
+              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16"><path fill-rule="evenodd"d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" /></svg> &ensp;TOP2
+            </h1>
+         </span>
+          <span class="topitem2_text"><h2>任選兩件<br> 85折優惠</h2></span>
+          <span>
+            <h1 class="arrow_right">TOP3 &ensp;<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-right"viewBox="0 0 16 16"><path fill-rule="evenodd"d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" /> </svg></h1>
+          </span>
+        </div>
+
+        <div class="topitem2_3">
+          <a href="#" class="topitem2img2">
+            <img src="./images/page-topitem/top125.jpg" alt="img">
+            <div class="notes_2_1">
+              百搭款素面襯衫 NT.299
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="topitem3">
+        <div class="topitem3_1">
+          <span><h1> &thinsp; 
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-90deg-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4.854 14.854a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L4 13.293V3.5A2.5 2.5 0 0 1 6.5 1h8a.5.5 0 0 1 0 1h-8A1.5 1.5 0 0 0 5 3.5v9.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4z"/></svg>
+            TOP4 
+          </h1></span>
+          <a href="#" class="topitem3img1">
+            <img src="./images/page-topitem/top126.jpg" alt="img">
+            <div class="notes3_1">雙口袋牛仔連身洋 NT.399</div>
+          </a>
+        </div>
+        <div class="topitem3_2">
+          <a href="#" class="topitem3img2">
+            <img src="./images/page-topitem/top127.jpg" alt="img">
+            <div class="notes3_1">率性刷破牛仔外套 NT.499</div>
+          </a>
+          <span><h1> &thinsp; 
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-90deg-up" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4.854 1.146a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L4 2.707V12.5A2.5 2.5 0 0 0 6.5 15h8a.5.5 0 0 0 0-1h-8A1.5 1.5 0 0 1 5 12.5V2.707l3.146 3.147a.5.5 0 1 0 .708-.708l-4-4z"/></svg> TOP5 
+        </h1></span>
+        </div>
+      </div>
+
+      <div class="topitem4">
+        <div class="topitem4_1">
+          <a href="#" class="topitem4img1">
+            <img src="./images/page-topitem/top128.jpg" alt="img">
+            <div class="notes4_2">無印隨性排釦襯衫 NT.490</div>
+          </a>
+          <span><h1 class="arrow_up"> &thinsp; <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"/>
+          </svg> TOP6 </h1></span>
+        </div>
+        <div class="topitem4_2">
+          <a href="#" class="topitem4img2">
+            <img src="./images/page-topitem/top129.jpg" alt="img">
+            <div class="notes4_2">假口袋設計襯衫 NT.490</div>
+          </a>
+          <span><h1 class="arrow_up">&thinsp;<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"/>
+          </svg> TOP7</h1> </span>
+        </div>
+        <div class="topitem4_3">
+          <span><h1 class="arrow_down"> &thinsp; <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"/>
+          </svg> TOP8</h1> </span>
+          <a href="#" class="topitem4img3">
+            <img src="./images/page-topitem/top130.jpg" alt="img">
+            <div class="notes4_2">素色吊帶牛仔裙 NT.790</div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer_title">
+      <span>Little Good Things Of Everyday Life.</span>
+    </div>
+    <div class="footer_menu">
+      <ul>
+        <li><a href="#">關於NYLA</a></li>
+        <li><a href="#">退換貨服務</a></li>
+        <li><a href="#">重要公告</a></li>
+        <li><a href="#">會員中心</a></li>
+        <li><a href="#">隱私權政策</a></li>
+      </ul>
+    </div>
+
+    <div class="footer_end">
+      <div class="footer_service">
+        <div class="footer_service1">
+          SERVICE
+        </div>
+        <div class="footer_service2">
+          service@nylashop.com.tw
+          <br>
+          MON. - FRI. 0900-1800
+          <br>
+          165 ANTI - FRAUD
+        </div>
+      </div>
+
+
+      <div class="footer_social">
+        <div class="footer_social_icon">
+          <a href="#"><img src="./images/fb1.svg" alt="facebook" /></a>
+          <a href="#"><img src="./images/line.svg" alt="line" /></a>
+          <a href="#"><img src="./images/ig.svg" alt="ig" /></a>
+          <a href="#"><img src="./images/yt.svg" alt="yt" /></a>
+        </div>
+
+        <div class="footer_social1">
+          ©NYLA All Rights Reserved
+        </div>
+      </div>
+    </div>
+
+    <div class="tibame">
+      本網站為緯育TibaMe前端工程師專業技術養成班第72期學員專題作品，本平台僅供學習、展示之用。
+      參考資源:
+      <a href="https://www.ures.shop/Shop/">[URES]</a>
+      <a href="https://www.ajpeace.com.tw/">[ajpeace]</a>。
+      若有侵權疑慮，您可以私訊
+      <a href="https://www.facebook.com/TibaMe/">[緯育TibaMe]<a>，後續會由專人協助處理。
+    </div>
+  </footer>
+
+  <script src="./js/hamburger.js"></script>
+</body>
+
+</html>

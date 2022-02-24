@@ -30,7 +30,6 @@ header.header{
   flex-direction: row;
   width: 100%;
   align-items: flex-end;
-  position: relative;
   position: sticky;
   top:0;
   background-color: white;

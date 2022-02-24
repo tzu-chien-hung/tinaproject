@@ -1,303 +1,305 @@
 <!DOCTYPE html>
 <html lang="zh-Hant" dir="ltr">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-    <title>NYLA SHOP-週週新品</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="./css/newproduct.css">
-  </head>
 
-  <body>
-    <header class="header">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>NYLA SHOP-週週新品</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="./css/newproduct.css">
+</head>
 
-      <div class="logo">
-        <a href="./index.html">
-          <img src="./images/logo1.jpg" alt="圖片">
-        </a>
+<body>
+  <header class="header">
+
+    <div class="logo">
+      <a href="./index.html">
+        <img src="./images/logo1.jpg" alt="圖片">
+      </a>
+    </div>
+    <button type="button" class="hamburger hamburger--spin btn_switch" id="hamham">
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
+    </button>
+    <nav class="nav_list">
+      <ul class="nav_list_ul">
+        <li class="new_items nav_list">
+          <a class="new_items list" href="./newproduct.html">週週新品</a>
+        </li>
+        <li class="hot nav_list">
+          <a class="hot list" href="./topitem.html">暢銷商品</a>
+        </li>
+        <li class="item1 nav_list">
+          <div class="item1">
+            <span class="item_clothing">NYLA衣著 +</span>
+            <ul class="item_list">
+              <li class="item_top">
+                <a href="#">上身</a>
+              </li>
+              <li class="item_bottom">
+                <a href="#">下著</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="acc nav_list">
+          <div class="acc">
+            <span class="item_clothing_1">NYLA配件 +</span>
+            <ul class="acc_list">
+              <li class="acc_bag">
+                <a href="#">包包</a>
+              </li>
+              <li class="acc_ear">
+                <a href="#">飾品</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="news nav_list">
+          <a class="news list" href="./news.html">最新活動</a>
+        </li>
+      </ul>
+
+      <div class="cart">
+        <a href="./login.html"><img src="./images/user.svg" alt="顧客"></a>
+        <a href="./cart.html"><img src="./images/cart.svg" alt="購物車"></a>
+        <a href="#" class="heart"><img src="./images/heart.svg" alt="愛心" /></a>
+        <div class="search">
+          <label for="search_name" class="search_check">
+            <img src="./images/search.svg" alt="搜尋">
+          </label>
+          <input type="text" class="search_bar" placeholder="search">
+        </div>
       </div>
-      <button type="button" class="hamburger hamburger--spin btn_switch" id="hamham">
-        <span class="hamburger-box">
-          <span class="hamburger-inner"></span>
-        </span>
-      </button>
-      <nav class="nav_list">
-        <ul class="nav_list_ul">
-          <li class="new_items nav_list">
-            <a class="new_items list" href="./newproduct.html">週週新品</a>
-          </li>
-          <li class="hot nav_list">
-            <a class="hot list" href="./topitem.html">暢銷商品</a>
-          </li>
-          <li class="item1 nav_list">
-            <div class="item1">
-              <span class="item_clothing">NYLA衣著 +</span>
-              <ul class="item_list">
-                <li class="item_top">
-                  <a href="#">上身</a>
-                </li>
-                <li class="item_bottom">
-                  <a href="#">下著</a>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="acc nav_list">
-            <div class="acc">
-              <span class="item_clothing_1">NYLA配件 +</span>
-              <ul class="acc_list">
-                <li class="acc_bag">
-                  <a href="#">包包</a>
-                </li>
-                <li class="acc_ear">
-                  <a href="#">飾品</a>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="news nav_list">
-            <a class="news list" href="./news.html">最新活動</a>
-          </li>
+    </nav>
+  </header>
+
+
+  <div class="newproduct_all">
+    <aside class="aside">
+      <div class="aside_nav">
+        <ul class="aside_nav_new">
+          <li class="newproduct_name">&gt; 新品上市</li>
+          <br>
+          <li class="newproduct_1020"><a href="./productDetail.html">10/20新品</a></li>
+          <li class="newproduct_1013"><a href="./productDetail.html">10/13新品</a></li>
+          <li class="newproduct_1006"><a href="./productDetail.html">10/06新品</a></li>
         </ul>
 
-        <div class="cart">
-          <a href="./login.html"><img src="./images/user.svg" alt="顧客" ></a>
-          <a href="./cart.html"><img src="./images/cart.svg" alt="購物車" ></a>
-          <a href="#" class="heart"><img src="./images/heart.svg" alt="愛心" /></a>
-          <div class="search">
-            <label for="search_name" class="search_check">
-               <img src="./images/search.svg" alt="搜尋">
-            </label>
-            <input type="text" class="search_bar" placeholder="search">          
-          </div>
-        </div>
-      </nav>
-    </header>
+        <br>
 
+        <ul class="aside_nav_list">
+          <li><a href="./productDetail.html">人氣商品</a></li>
+          <li><a href="./productDetail.html">上身TOP</a></li>
+          <li><a href="./productDetail.html">下身BOTTOM</a></li>
+          <li><a href="./productDetail.html">洋裝DRESS</a></li>
+          <li><a href="./productDetail.html">外套COAT</a></li>
+          <li><a href="./productDetail.html">配件ACC</a></li>
+          <li><a href="./productDetail.html">折扣商品SALE</a></li>
+        </ul>
+      </div>
+    </aside>
 
-    <div class="newproduct_all">
-      <aside class="aside">
-        <div class="aside_nav">
-          <ul class="aside_nav_new">
-            <li class="newproduct_name">&gt; 新品上市</li>
+    <main class="main_newproduct">
+      <div class="main_newproduct1">
+        <a href="./productDetail.html" class="main_newproduct1_banner"><img src="./images/page2-new/new_banner.jpg"
+            alt="img"></a>
+      </div>
+
+      <div class="main_newproduct_hum">
+        <a href="./index.html" class="main_newproduct_hum_home"> HOME </a> &gt;
+        <a href="./newproduct.html" class="main_newproduct_hum_newproduct_hum"> 週週新品 </a> &gt;
+        <span> 10/20 新品 </span>
+      </div>
+
+      <div class="main_newproduct_all_list">
+        <div class="main_newproduct2_list">
+          <a href="./productDetail.html" class="main_newproduct_list1_img img">
+            <img src="./images/page2-new/5120216710-01.jpg" alt="img">
             <br>
-            <li class="newproduct_1020"><a href="#">10/20新品</a></li>
-            <li class="newproduct_1013"><a href="#">10/13新品</a></li>
-            <li class="newproduct_1006"><a href="#">10/06新品</a></li>
-          </ul>
-
+            <span>小直筒西裝褲</span>
+          </a>
           <br>
-
-          <ul class="aside_nav_list">
-            <li><a href="#">人氣商品</a></li>
-            <li><a href="#">上身TOP</a></li>
-            <li><a href="#">下身BOTTOM</a></li>
-            <li><a href="#">洋裝DRESS</a></li>
-            <li><a href="#">外套COAT</a></li>
-            <li><a href="#">配件ACC</a></li>
-            <li><a href="#">折扣商品SALE</a></li>
-          </ul>
-        </div>
-      </aside>
-      
-      <main class="main_newproduct">
-        <div class="main_newproduct1">
-          <a href="#" class="main_newproduct1_banner"><img src="./images/page2-new/new_banner.jpg" alt="img" ></a>
+          <span>NT.690</span>
         </div>
 
-        <div class="main_newproduct_hum">
-          <a href="./index.html" class="main_newproduct_hum_home"> HOME </a> &gt;
-          <a href="./newproduct.html" class="main_newproduct_hum_newproduct_hum"> 週週新品 </a> &gt;
-          <span> 10/20 新品 </span>
+        <div class="main_newproduct2_list2">
+          <a href="./productDetail.html" class="main_newproduct_list2_img img">
+            <img src="./images/page2-new/1130200380-01.jpg" alt="img">
+            <br>
+            <span>側邊破洞牛仔褲</span>
+          </a>
+          <br>
+          <span>NT.790</span>
         </div>
 
-        <div class="main_newproduct_all_list">
-          <div class="main_newproduct2_list">
-            <a href="#" class="main_newproduct_list1_img img">
-              <img src="./images/page2-new/5120216710-01.jpg" alt="img" >
-              <br>
-              <span>小直筒西裝褲</span>
-            </a>
+        <div class="main_newproduct2_list3">
+          <a href="./productDetail.html" class="main_newproduct_list3_img img">
+            <img src="./images/page2-new/1130102069-01.jpg" alt="img">
             <br>
-            <span>NT.690</span>
-          </div>
-
-          <div class="main_newproduct2_list2">
-            <a href="#" class="main_newproduct_list2_img img">
-              <img src="./images/page2-new/1130200380-01.jpg" alt="img" >
-              <br>
-              <span>側邊破洞牛仔褲</span>
-            </a>
-            <br>
-            <span>NT.790</span>
-          </div>
-
-          <div class="main_newproduct2_list3">
-            <a href="#" class="main_newproduct_list3_img img">
-              <img src="./images/page2-new/1130102069-01.jpg" alt="img" >
-              <br>
-              <span>短版薄透上衣</span>
-            </a>
-            <br>
-            <span>NT.490</span>
-          </div>
-
-          <div class="main_newproduct3_list">
-            <a href="#" class="main_newproduct3_list1_img img">
-              <img src="./images/page2-new/1130205980-01.jpg" alt="img" >
-              <br>
-              <span>百搭格線短裙 </span>
-            </a>
-            <br>
-            <span>NT.420</span>
-          </div>
-
-          <div class="main_newproduct3_list2">
-            <a href="#" class="main_newproduct3_list2_img img">
-              <img src="./images/page2-new/1130102010-01.jpg" alt="img" >
-              <br>
-              <span>短版薄透上衣 </span>
-            </a>
-            <br>
-            <span>NT.490</span>
-          </div>
-
-          <div class="main_newproduct3_list3">
-            <a href="#" class="main_newproduct3_list3_img img">
-              <img src="./images/page2-new/1130104710-01.jpg" alt="img" >
-              <br>
-              <span>柔料圓領素T </span>
-            </a>
-            <br>
-            <span>NT.390</span>
-          </div>
-
-          <div class="main_newproduct4_list">
-            <a href="#" class="main_newproduct4_list1_img img">
-              <img src="./images/page2-new/1130107430-01.jpg" alt="img" >
-              <br>
-              <span>LONELY短版上衣 </span>
-            </a>
-            <br>
-            <span>NT.590</span>
-          </div>
-
-          <div class="main_newproduct4_list2">
-            <a href="#" class="main_newproduct4_list2_img img">
-              <img src="./images/page2-new/1130107459-01.jpg" alt="img" >
-              <br>
-              <span>LONELY短版上衣 </span>
-            </a>
-            <br>
-            <span>NT.590</span>
-          </div>
-
-          <div class="main_newproduct4_list3">
-            <a href="#" class="main_newproduct4_list3_img img">
-              <img src="./images/page2-new/1130104720-01.jpg" alt="img" >
-              <br>
-              <span>柔料圓領素T </span>
-            </a>
-            <br>
-            <span>NT.390</span>
-          </div>
-
-          <div class="main_newproduct5_list">
-            <a href="#" class="main_newproduct5_list1_img img">
-              <img src="./images/page2-new/1130108821-01.jpg" alt="img" >
-              <br>
-              <span>GREENDALE長袖上衣 </span>
-            </a>
-            <br>
-            <span>NT.490</span>
-          </div>
-
-          <div class="main_newproduct5_list2">
-            <a href="#" class="main_newproduct5_list2_img img">
-              <img src="./images/page2-new/5120216758-01.jpg" alt="img" >
-              <br>
-              <span>小直筒西裝褲 </span>
-            </a>
-            <br>
-            <span>NT.690</span>
-          </div>
-
-          <div class="main_newproduct5_list3">
-            <a href="#" class="main_newproduct5_list3_img img">
-              <img src="./images/page2-new/1130100210-01.jpg" alt="img" >
-              <br>
-              <span>多色落肩大學T </span>
-            </a>
-            <br>
-            <span>NT.490</span>
-          </div>
-
+            <span>短版薄透上衣</span>
+          </a>
+          <br>
+          <span>NT.490</span>
         </div>
 
-        <div class="main_newproduct6">
-          <a href="./newproduct.html" class="newproduct_page1"> 1 </a>
-          <a href="./newproduct.html" class="newproduct_page2"> 2 </a>
-          <a href="./newproduct.html" class="newproduct_nextpage"> &gt; </a>
+        <div class="main_newproduct3_list">
+          <a href="./productDetail.html" class="main_newproduct3_list1_img img">
+            <img src="./images/page2-new/1130205980-01.jpg" alt="img">
+            <br>
+            <span>百搭格線短裙 </span>
+          </a>
+          <br>
+          <span>NT.420</span>
         </div>
-      </main>
+
+        <div class="main_newproduct3_list2">
+          <a href="./productDetail.html" class="main_newproduct3_list2_img img">
+            <img src="./images/page2-new/1130102010-01.jpg" alt="img">
+            <br>
+            <span>短版薄透上衣 </span>
+          </a>
+          <br>
+          <span>NT.490</span>
+        </div>
+
+        <div class="main_newproduct3_list3">
+          <a href="./productDetail.html" class="main_newproduct3_list3_img img">
+            <img src="./images/page2-new/1130104710-01.jpg" alt="img">
+            <br>
+            <span>柔料圓領素T </span>
+          </a>
+          <br>
+          <span>NT.390</span>
+        </div>
+
+        <div class="main_newproduct4_list">
+          <a href="./productDetail.html" class="main_newproduct4_list1_img img">
+            <img src="./images/page2-new/1130107430-01.jpg" alt="img">
+            <br>
+            <span>LONELY短版上衣 </span>
+          </a>
+          <br>
+          <span>NT.590</span>
+        </div>
+
+        <div class="main_newproduct4_list2">
+          <a href="./productDetail.html" class="main_newproduct4_list2_img img">
+            <img src="./images/page2-new/1130107459-01.jpg" alt="img">
+            <br>
+            <span>LONELY短版上衣 </span>
+          </a>
+          <br>
+          <span>NT.590</span>
+        </div>
+
+        <div class="main_newproduct4_list3">
+          <a href="./productDetail.html" class="main_newproduct4_list3_img img">
+            <img src="./images/page2-new/1130104720-01.jpg" alt="img">
+            <br>
+            <span>柔料圓領素T </span>
+          </a>
+          <br>
+          <span>NT.390</span>
+        </div>
+
+        <div class="main_newproduct5_list">
+          <a href="./productDetail.html" class="main_newproduct5_list1_img img">
+            <img src="./images/page2-new/1130108821-01.jpg" alt="img">
+            <br>
+            <span>GREENDALE長袖上衣 </span>
+          </a>
+          <br>
+          <span>NT.490</span>
+        </div>
+
+        <div class="main_newproduct5_list2">
+          <a href="./productDetail.html" class="main_newproduct5_list2_img img">
+            <img src="./images/page2-new/5120216758-01.jpg" alt="img">
+            <br>
+            <span>小直筒西裝褲 </span>
+          </a>
+          <br>
+          <span>NT.690</span>
+        </div>
+
+        <div class="main_newproduct5_list3">
+          <a href="./productDetail.html" class="main_newproduct5_list3_img img">
+            <img src="./images/page2-new/1130100210-01.jpg" alt="img">
+            <br>
+            <span>多色落肩大學T </span>
+          </a>
+          <br>
+          <span>NT.490</span>
+        </div>
+
+      </div>
+
+      <div class="main_newproduct6">
+        <a href="./newproduct.html" class="newproduct_page1"> 1 </a>
+        <a href="./newproduct.html" class="newproduct_page2"> 2 </a>
+        <a href="./newproduct.html" class="newproduct_nextpage"> &gt; </a>
+      </div>
+    </main>
+  </div>
+  <footer class="footer">
+    <div class="footer_title">
+      <span>Little Good Things Of Everyday Life.</span>
+    </div>
+    <div class="footer_menu">
+      <ul>
+        <li><a href="#">關於NYLA</a></li>
+        <li><a href="#">退換貨服務</a></li>
+        <li><a href="#">重要公告</a></li>
+        <li><a href="#">會員中心</a></li>
+        <li><a href="#">隱私權政策</a></li>
+      </ul>
     </div>
 
-
-    <footer class="footer">
-      <div class="footer_title">
-        <span>Little Good Things Of Everyday Life.</span>
-      </div>
-      <div class="footer_menu">
-        <ul>
-          <li><a href="#">關於NYLA</a></li>
-          <li><a href="#">退換貨服務</a></li>
-          <li><a href="#">重要公告</a></li>
-          <li><a href="#">會員中心</a></li>
-          <li><a href="#">隱私權政策</a></li>
-        </ul>
-      </div>
-
-      <div class="footer_end">
-        <div class="footer_service">
-          <div class="footer_service1">
-            SERVICE
-          </div>
-          <div class="footer_service2">
-            service@nylashop.com.tw
-            <br>
-            MON. - FRI. 0900-1800
-            <br>
-            165 ANTI - FRAUD
-          </div>
+    <div class="footer_end">
+      <div class="footer_service">
+        <div class="footer_service1">
+          SERVICE
         </div>
-      
-      
-        <div class="footer_social">
-          <div class="footer_social_icon">
-            <a href="#"><img src="./images/fb1.svg" alt="facebook" /></a>
-            <a href="#"><img src="./images/line.svg" alt="line" /></a>
-            <a href="#"><img src="./images/ig.svg" alt="ig" /></a>
-            <a href="#"><img src="./images/yt.svg" alt="yt" /></a>
-          </div>
-
-          <div class="footer_social1">
-            ©NYLA All Rights Reserved
-          </div>
+        <div class="footer_service2">
+          service@nylashop.com.tw
+          <br>
+          MON. - FRI. 0900-1800
+          <br>
+          165 ANTI - FRAUD
         </div>
       </div>
 
-      <div class="tibame">
-        本網站為緯育TibaMe前端工程師專業技術養成班第72期學員專題作品，本平台僅供學習、展示之用。
-        參考資源:
-        <a href="https://www.ures.shop/Shop/">[URES]</a> 
-        <a href="https://www.ajpeace.com.tw/">[ajpeace]</a>。
-        若有侵權疑慮，您可以私訊
-        <a href="https://www.facebook.com/TibaMe/">[緯育TibaMe]<a>，後續會由專人協助處理。
-      </div>
-    </footer>
 
-    <script src="./js/hamburger.js"></script>
-  </body>
+      <div class="footer_social">
+        <div class="footer_social_icon">
+          <a href="#"><img src="./images/fb1.svg" alt="facebook" /></a>
+          <a href="#"><img src="./images/line.svg" alt="line" /></a>
+          <a href="#"><img src="./images/ig.svg" alt="ig" /></a>
+          <a href="#"><img src="./images/yt.svg" alt="yt" /></a>
+        </div>
+
+        <div class="footer_social1">
+          ©NYLA All Rights Reserved
+        </div>
+      </div>
+    </div>
+
+    <div class="tibame">
+      本網站為緯育TibaMe前端工程師專業技術養成班第72期學員專題作品，本平台僅供學習、展示之用。
+      參考資源:
+      <a href="https://www.ures.shop/Shop/">[URES]</a>
+      <a href="https://www.ajpeace.com.tw/">[ajpeace]</a>。
+      若有侵權疑慮，您可以私訊
+      <a href="https://www.facebook.com/TibaMe/">[緯育TibaMe]<a>，後續會由專人協助處理。
+    </div>
+  </footer>
+
+
+  <script src="./js/hamburger.js"></script>
+</body>
+
 </html>

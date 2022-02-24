@@ -1,6 +1,15 @@
 @import "./common/header.css";
 @import "./common/footer.css";
 
+.main{
+    margin: 0 auto;
+    letter-spacing: 1.5px;
+  }
+.main_1{
+    display: flex;
+    justify-content:center;
+
+}
 .aside_all{
     position: sticky;
     top: 120px;
@@ -16,7 +25,6 @@
 .med_img_pic{
     margin-bottom: 40px;
 }
-
 
 .right_all{
     border: 1px solid black;

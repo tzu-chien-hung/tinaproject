@@ -18,7 +18,6 @@ main.main_topitem{
   width: 100%;
 }
 
-
 main > div.topitem_banner > img{
   width: 100%;
 }
@@ -76,12 +75,7 @@ div.topitem2{
   justify-content: center;
   margin: 60px auto;
 }
-.topitem2_1{
-  width: 35%;
-}
-.topitem2_3{
-  width: 35%;
-}
+
 div.topitem2 a {
 
   width: 100%;
